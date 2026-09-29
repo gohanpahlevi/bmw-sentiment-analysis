@@ -14,6 +14,9 @@ Usage:
 import os
 import shutil
 import sys
+from itertools import combinations
+
+import numpy as np
 
 from pyspark.sql import SparkSession, Window
 from pyspark.sql import functions as F
@@ -232,6 +235,99 @@ def validation_sample(df, per_class=67, seed=42):
     return df.sampleBy("Sentiment", fractions=fractions, seed=seed)
 
 
+def bootstrap_ci(values, draws=2000, level=0.95, seed=0):
+    """Percentile bootstrap interval for the mean."""
+    rng = np.random.default_rng(seed)
+    means = rng.choice(values, size=(draws, len(values)), replace=True).mean(axis=1)
+    lo, hi = np.percentile(means, [100 * (1 - level) / 2, 100 * (1 + level) / 2])
+    return float(lo), float(hi)
+
+
+def bootstrap_diff_p(a, b, draws=2000, seed=0):
+    """Two sided bootstrap p value for a difference in means."""
+    rng = np.random.default_rng(seed)
+    da = rng.choice(a, size=(draws, len(a)), replace=True).mean(axis=1)
+    db = rng.choice(b, size=(draws, len(b)), replace=True).mean(axis=1)
+    diff = da - db
+    return float(min(1.0, 2 * min((diff <= 0).mean(), (diff >= 0).mean())))
+
+
+def company_intervals(df, companies, min_n=30):
+    """Mean sentiment per company per period with a bootstrap interval."""
+    # Groups are a few hundred rows each, so pulling the scores to the driver
+    # is cheaper than trying to resample inside Spark.
+    rows = (
+        df.filter(F.col("Company").isin(companies))
+        .select("Company", "period", "sentiment_score")
+        .collect()
+    )
+
+    groups = {}
+    for r in rows:
+        groups.setdefault((r["Company"], r["period"]), []).append(r["sentiment_score"])
+
+    out = []
+    for (company, period), scores in sorted(groups.items()):
+        if len(scores) < min_n:
+            continue
+        arr = np.array(scores, dtype=float)
+        lo, hi = bootstrap_ci(arr)
+        out.append({
+            "company": company,
+            "period": period,
+            "n": len(arr),
+            "mean": round(float(arr.mean()), 3),
+            "ci_low": round(lo, 3),
+            "ci_high": round(hi, 3),
+        })
+    return out
+
+
+def company_comparisons(df, companies, first_year=2020):
+    """Pairwise tests between carmakers, Bonferroni corrected."""
+    rows = (
+        df.filter(F.col("Company").isin(companies))
+        .filter(F.col("Year") >= first_year)
+        .select("Company", "sentiment_score")
+        .collect()
+    )
+
+    scores = {}
+    for r in rows:
+        scores.setdefault(r["Company"], []).append(r["sentiment_score"])
+    scores = {k: np.array(v, dtype=float) for k, v in scores.items() if len(v) >= 30}
+
+    out = []
+    for a, b in combinations(sorted(scores), 2):
+        out.append({
+            "company_a": a,
+            "company_b": b,
+            "mean_a": round(float(scores[a].mean()), 3),
+            "mean_b": round(float(scores[b].mean()), 3),
+            "p": bootstrap_diff_p(scores[a], scores[b]),
+        })
+
+    # Bonferroni. Ten pairs among five carmakers, so an uncorrected p of 0.04
+    # is not evidence of anything.
+    k = len(out)
+    for r in out:
+        r["p_corrected"] = round(min(1.0, r["p"] * k), 4)
+        r["p"] = round(r["p"], 4)
+    return sorted(out, key=lambda r: r["p_corrected"])
+
+
+def write_rows(rows, name):
+    """Write a list of dicts as CSV."""
+    if not rows:
+        return
+    import csv
+    path = os.path.join(RESULTS, f"{name}.csv")
+    with open(path, "w", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=list(rows[0]))
+        w.writeheader()
+        w.writerows(rows)
+
+
 def write_csv(df, name):
     """Write a summary table as one CSV file rather than a directory of parts."""
     tmp = os.path.join(RESULTS, f".{name}")
@@ -276,6 +372,23 @@ def main():
     os.makedirs(RESULTS, exist_ok=True)
     for name, table in tables.items():
         write_csv(table, name)
+
+    intervals = company_intervals(reviews, CARMAKERS)
+    comparisons = company_comparisons(reviews, CARMAKERS)
+    write_rows(intervals, "company_intervals")
+    write_rows(comparisons, "company_comparisons")
+
+    print("\nBootstrap intervals, five carmakers")
+    for r in intervals:
+        print(f"  {r['company']:15} {r['period']:13} n={r['n']:4}  "
+              f"{r['mean']:+.3f}  [{r['ci_low']:+.3f}, {r['ci_high']:+.3f}]")
+
+    print("\nPairwise comparisons from 2020, Bonferroni corrected")
+    for r in comparisons:
+        flag = "*" if r["p_corrected"] < 0.05 else " "
+        print(f" {flag} {r['company_a']:15} vs {r['company_b']:15} "
+              f"p={r['p']:.4f}  corrected={r['p_corrected']:.4f}")
+
     print(f"\nresult tables written to {RESULTS}")
 
     print(f"\nvalidation sample: {validation_sample(reviews).count()} rows")

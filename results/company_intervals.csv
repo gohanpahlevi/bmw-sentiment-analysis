@@ -1,0 +1,16 @@
+company,period,n,mean,ci_low,ci_high
+Audi,1_pre_covid,88,-0.182,-0.33,-0.034
+Audi,2_covid,70,0.086,-0.086,0.271
+Audi,3_post_covid,51,0.118,-0.118,0.353
+BMW,1_pre_covid,287,0.042,-0.031,0.115
+BMW,2_covid,212,0.0,-0.099,0.099
+BMW,3_post_covid,202,-0.139,-0.238,-0.035
+Mercedes-Benz,1_pre_covid,378,0.048,-0.019,0.119
+Mercedes-Benz,2_covid,308,0.019,-0.055,0.101
+Mercedes-Benz,3_post_covid,238,0.055,-0.034,0.147
+Porsche,1_pre_covid,51,-0.275,-0.431,-0.118
+Porsche,2_covid,88,0.011,-0.136,0.159
+Porsche,3_post_covid,83,-0.133,-0.301,0.036
+Volkswagen,1_pre_covid,95,-0.137,-0.274,0.011
+Volkswagen,2_covid,90,0.044,-0.1,0.189
+Volkswagen,3_post_covid,92,-0.087,-0.239,0.065

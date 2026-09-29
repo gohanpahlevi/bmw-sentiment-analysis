@@ -1,0 +1,11 @@
+company_a,company_b,mean_a,mean_b,p,p_corrected
+BMW,Mercedes-Benz,-0.068,0.035,0.033,0.33
+Audi,BMW,0.099,-0.068,0.039,0.39
+Audi,Porsche,0.099,-0.058,0.084,0.84
+Audi,Mercedes-Benz,0.099,0.035,0.409,1.0
+Audi,Volkswagen,0.099,-0.022,0.182,1.0
+BMW,Porsche,-0.068,-0.058,0.912,1.0
+BMW,Volkswagen,-0.068,-0.022,0.47,1.0
+Mercedes-Benz,Porsche,0.035,-0.058,0.158,1.0
+Mercedes-Benz,Volkswagen,0.035,-0.022,0.388,1.0
+Porsche,Volkswagen,-0.058,-0.022,0.633,1.0
