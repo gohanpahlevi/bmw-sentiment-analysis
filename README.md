@@ -34,6 +34,10 @@ The raw review text is not in this repository and neither are the scrapers. The 
 
 BMW started above the industry average and ended below it.
 
+![Mean sentiment by period, BMW against Mercedes-Benz and the other three carmakers](figures/sentiment_by_period.png)
+
+The left panel is the comparison this report rests on, drawn with its intervals, because they overlap and the chart should not suggest a cleaner result than the data supports.
+
 | Period | Reviews | Mean sentiment | Negative |
 | --- | --- | --- | --- |
 | Pre-COVID 2015-2019 | 287 | +0.042 | 19.2% |
@@ -106,6 +110,12 @@ The tests need pytest, which is in the dev requirements.
 ```
 pip install -r requirements-dev.txt
 pytest
+```
+
+`make_charts.py` redraws the figure from `results/company_intervals.csv`, so it works from the repository alone with no raw reviews.
+
+```
+python make_charts.py
 ```
 
 `validation_sample()` writes a stratified sample of labelled reviews to `output/validation_sample/` for manual spot checking. That file holds raw review text, so it stays under `output/`, which is gitignored, and never under `results/`.
