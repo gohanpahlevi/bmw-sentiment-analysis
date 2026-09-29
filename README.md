@@ -10,7 +10,11 @@ German carmakers spent the COVID years rewriting how and where people work. The 
 
 ## Data
 
-Employer reviews from public review sites, labelled for sentiment by a locally hosted LLaMA 3.1 running through Ollama. The prompt is German and scores each review only on its tone toward flexible working, reading both explicit statements and implicit signals such as long hours, missing breaks and contactability outside working time.
+Employer reviews from Kununu and Glassdoor, collected and labelled in two stages.
+
+**Collection.** Scraped with Selenium, walking the pagination for each company and writing one file per employer. Collection was exhaustive per company rather than sampled, so the counts below are every review available at the time of the scrape, not a draw from them.
+
+**Labelling.** Each review was scored by a LLaMA 3.1 model running locally through Ollama. The prompt is German and rates the review only on its tone toward flexible working, reading both explicit statements such as "Homeoffice erlaubt" and implicit signals such as ten hour days, missing breaks and contactability outside working time. Running the model locally rather than through a hosted API meant no review text left the machine.
 
 | Set | Reviews | Companies | Used as |
 | --- | --- | --- | --- |
@@ -19,7 +23,7 @@ Employer reviews from public review sites, labelled for sentiment by a locally h
 
 Companies with fewer than 100 reviews are dropped, which leaves 19 companies and 6,352 reviews from 2015 onward.
 
-The raw review text is not in this repository. `sentiment_analysis.py` expects the two CSV files in `data/`, with the schemas declared at the top of the script. The aggregated output is committed under `results/`, so every figure below can be checked without it.
+The raw review text is not in this repository and the scrapers are not either. The reviews are user-generated content belonging to the platforms, and German employer reviews carry role, employer and year alongside free text, which in a small company is enough to identify a person. Publishing them is not mine to do. `sentiment_analysis.py` expects the two CSV files in `data/`, with the schemas declared at the top of the script, and the aggregated output is committed under `results/` so every figure below can be checked without them.
 
 ## Results
 
@@ -110,7 +114,9 @@ The 100-review filter uses a window rather than collecting counts to the driver.
 
 ## Limitations
 
-Reviews are self-selected, so people with something to say are overrepresented, and former employees more so than current ones.
+Reviews are voluntary, so the people who write them are not a random sample of employees. Collection was exhaustive rather than sampled, so nothing is lost at that step, but the underlying population still leans toward people with a strong view and toward leavers.
+
+The role breakdown shows the effect directly. Former employees are the most negative group at 38.6% negative across 580 reviews, against interns at 20.7%. Any company-level number carries that composition with it.
 
 The sentiment labels come from a model, not from human annotation. `validation_sample()` draws a stratified sample for manual spot checking. It uses `sampleBy`, which works on fractions, so the sample size is approximate rather than exact.
 
