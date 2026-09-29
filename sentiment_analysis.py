@@ -1,5 +1,5 @@
 """
-Employee sentiment on flexible working in the German automotive industry.
+Employee sentiment on home office and flexible working in the German automotive industry.
 
 Spark implementation of the analysis originally written in pandas for an
 Advanced Project Study at TUM. Reads German-language employer reviews that have
