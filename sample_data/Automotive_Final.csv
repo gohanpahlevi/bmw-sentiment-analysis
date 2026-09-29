@@ -1,401 +1,1301 @@
 Company,Year,Role,Standardized Role (DE),Standardized Role (EN),Rating,Source,NACE Code,Review Text,Sentiment,Main Topic,Standardized Topic (DE),Standardized Topic (EN)
-BMW,2021,Werkstudent,Werkstudent,Working Student,4.0,sample,29.10,"Beispieltext 0 fuer BMW.
+BMW,2020,Manager,Manager,Manager,4.0,sample,29.10,"Beispieltext 0 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,3.7,sample,29.10,"Beispieltext 1 fuer BMW.
+BMW,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,2.2,sample,29.10,"Beispieltext 1 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-BMW,2021,Angestellter,Angestellter,Employee,3.3,sample,29.10,"Beispieltext 2 fuer BMW.
+BMW,2015,Manager,Manager,Manager,3.3,sample,29.10,"Beispieltext 2 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-BMW,2021,Angestellter,Angestellter,Employee,2.2,sample,29.10,"Beispieltext 3 fuer BMW.
+BMW,2016,Manager,Manager,Manager,2.2,sample,29.10,"Beispieltext 3 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2024,Praktikant,Praktikant,Intern,4.8,sample,29.10,"Beispieltext 4 fuer BMW.
+BMW,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,4.8,sample,29.10,"Beispieltext 4 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
 BMW,2015,Angestellter,Angestellter,Employee,3.7,sample,29.10,"Beispieltext 5 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-BMW,2017,Werkstudent,Werkstudent,Working Student,3.6,sample,29.10,"Beispieltext 6 fuer BMW.
+BMW,2019,Praktikant,Praktikant,Intern,3.6,sample,29.10,"Beispieltext 6 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-BMW,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,2.3,sample,29.10,"Beispieltext 7 fuer BMW.
+BMW,2023,Praktikant,Praktikant,Intern,2.3,sample,29.10,"Beispieltext 7 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-BMW,2023,Werkstudent,Werkstudent,Working Student,4.1,sample,29.10,"Beispieltext 8 fuer BMW.
+BMW,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,4.1,sample,29.10,"Beispieltext 8 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,4.0,sample,29.10,"Beispieltext 9 fuer BMW.
-Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-BMW,2024,Werkstudent,Werkstudent,Working Student,4.8,sample,29.10,"Beispieltext 10 fuer BMW.
+BMW,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,3.3,sample,29.10,"Beispieltext 9 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-BMW,2017,Werkstudent,Werkstudent,Working Student,4.1,sample,29.10,"Beispieltext 11 fuer BMW.
-Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-BMW,2019,Angestellter,Angestellter,Employee,3.6,sample,29.10,"Beispieltext 12 fuer BMW.
-Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-BMW,2024,Manager,Manager,Manager,4.9,sample,29.10,"Beispieltext 13 fuer BMW.
-Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,4.3,sample,29.10,"Beispieltext 14 fuer BMW.
-Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-BMW,2015,Manager,Manager,Manager,4.9,sample,29.10,"Beispieltext 15 fuer BMW.
-Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,3.0,sample,29.10,"Beispieltext 16 fuer BMW.
-Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-BMW,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,4.4,sample,29.10,"Beispieltext 17 fuer BMW.
-Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2022,Angestellter,Angestellter,Employee,4.1,sample,29.10,"Beispieltext 18 fuer BMW.
-Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2019,Angestellter,Angestellter,Employee,3.9,sample,29.10,"Beispieltext 19 fuer BMW.
-Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-BMW,2021,Werkstudent,Werkstudent,Working Student,4.7,sample,29.10,"Beispieltext 20 fuer BMW.
-Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-BMW,2020,Angestellter,Angestellter,Employee,2.5,sample,29.10,"Beispieltext 21 fuer BMW.
-Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2018,Manager,Manager,Manager,4.3,sample,29.10,"Beispieltext 22 fuer BMW.
-Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-BMW,2021,Praktikant,Praktikant,Intern,4.8,sample,29.10,"Beispieltext 23 fuer BMW.
-Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
-BMW,2022,Angestellter,Angestellter,Employee,3.2,sample,29.10,"Beispieltext 24 fuer BMW.
-Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
-BMW,2023,Praktikant,Praktikant,Intern,2.8,sample,29.10,"Beispieltext 25 fuer BMW.
-Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
-BMW,2021,Werkstudent,Werkstudent,Working Student,4.9,sample,29.10,"Beispieltext 26 fuer BMW.
+BMW,2022,Manager,Manager,Manager,3.1,sample,29.10,"Beispieltext 10 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-BMW,2017,Angestellter,Angestellter,Employee,2.7,sample,29.10,"Beispieltext 27 fuer BMW.
-Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-BMW,2024,Angestellter,Angestellter,Employee,2.5,sample,29.10,"Beispieltext 28 fuer BMW.
+BMW,2017,Praktikant,Praktikant,Intern,2.2,sample,29.10,"Beispieltext 11 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+BMW,2023,Werkstudent,Werkstudent,Working Student,4.2,sample,29.10,"Beispieltext 12 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-BMW,2021,Angestellter,Angestellter,Employee,3.6,sample,29.10,"Beispieltext 29 fuer BMW.
+BMW,2024,Angestellter,Angestellter,Employee,3.5,sample,29.10,"Beispieltext 13 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+BMW,2020,Manager,Manager,Manager,3.3,sample,29.10,"Beispieltext 14 fuer BMW.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+BMW,2023,Werkstudent,Werkstudent,Working Student,3.0,sample,29.10,"Beispieltext 15 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+BMW,2024,Manager,Manager,Manager,2.2,sample,29.10,"Beispieltext 16 fuer BMW.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+BMW,2019,Angestellter,Angestellter,Employee,2.2,sample,29.10,"Beispieltext 17 fuer BMW.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+BMW,2024,Manager,Manager,Manager,2.9,sample,29.10,"Beispieltext 18 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+BMW,2020,Manager,Manager,Manager,3.1,sample,29.10,"Beispieltext 19 fuer BMW.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+BMW,2022,Praktikant,Praktikant,Intern,4.3,sample,29.10,"Beispieltext 20 fuer BMW.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+BMW,2018,Manager,Manager,Manager,4.8,sample,29.10,"Beispieltext 21 fuer BMW.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+BMW,2016,Manager,Manager,Manager,3.2,sample,29.10,"Beispieltext 22 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
-BMW,2023,Praktikant,Praktikant,Intern,4.9,sample,29.10,"Beispieltext 30 fuer BMW.
+BMW,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,2.8,sample,29.10,"Beispieltext 23 fuer BMW.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+BMW,2020,Manager,Manager,Manager,4.9,sample,29.10,"Beispieltext 24 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+BMW,2016,Praktikant,Praktikant,Intern,2.7,sample,29.10,"Beispieltext 25 fuer BMW.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+BMW,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,2.5,sample,29.10,"Beispieltext 26 fuer BMW.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+BMW,2015,Manager,Manager,Manager,3.6,sample,29.10,"Beispieltext 27 fuer BMW.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+BMW,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,4.9,sample,29.10,"Beispieltext 28 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2023,Manager,Manager,Manager,3.2,sample,29.10,"Beispieltext 31 fuer BMW.
+BMW,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,3.2,sample,29.10,"Beispieltext 29 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-BMW,2022,Manager,Manager,Manager,3.9,sample,29.10,"Beispieltext 32 fuer BMW.
+BMW,2021,Manager,Manager,Manager,3.9,sample,29.10,"Beispieltext 30 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2018,Praktikant,Praktikant,Intern,3.3,sample,29.10,"Beispieltext 33 fuer BMW.
+BMW,2018,Praktikant,Praktikant,Intern,3.3,sample,29.10,"Beispieltext 31 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2015,Werkstudent,Werkstudent,Working Student,2.3,sample,29.10,"Beispieltext 34 fuer BMW.
+BMW,2020,Angestellter,Angestellter,Employee,2.3,sample,29.10,"Beispieltext 32 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-BMW,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,3.8,sample,29.10,"Beispieltext 35 fuer BMW.
+BMW,2023,Werkstudent,Werkstudent,Working Student,3.8,sample,29.10,"Beispieltext 33 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2021,Praktikant,Praktikant,Intern,2.4,sample,29.10,"Beispieltext 36 fuer BMW.
+BMW,2018,Manager,Manager,Manager,2.4,sample,29.10,"Beispieltext 34 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-BMW,2020,Werkstudent,Werkstudent,Working Student,3.4,sample,29.10,"Beispieltext 37 fuer BMW.
+BMW,2020,Werkstudent,Werkstudent,Working Student,3.4,sample,29.10,"Beispieltext 35 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2022,Manager,Manager,Manager,3.5,sample,29.10,"Beispieltext 38 fuer BMW.
+BMW,2022,Manager,Manager,Manager,3.5,sample,29.10,"Beispieltext 36 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-BMW,2020,Praktikant,Praktikant,Intern,4.2,sample,29.10,"Beispieltext 39 fuer BMW.
+BMW,2017,Werkstudent,Werkstudent,Working Student,4.2,sample,29.10,"Beispieltext 37 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Mercedes-Benz,2015,Praktikant,Praktikant,Intern,2.6,sample,29.10,"Beispieltext 0 fuer Mercedes-Benz.
+BMW,2017,Angestellter,Angestellter,Employee,2.6,sample,29.10,"Beispieltext 38 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Mercedes-Benz,2023,Praktikant,Praktikant,Intern,4.7,sample,29.10,"Beispieltext 1 fuer Mercedes-Benz.
+BMW,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,4.7,sample,29.10,"Beispieltext 39 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Mercedes-Benz,2019,Angestellter,Angestellter,Employee,3.6,sample,29.10,"Beispieltext 2 fuer Mercedes-Benz.
+BMW,2016,Werkstudent,Werkstudent,Working Student,3.6,sample,29.10,"Beispieltext 40 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-Mercedes-Benz,2023,Werkstudent,Werkstudent,Working Student,3.6,sample,29.10,"Beispieltext 3 fuer Mercedes-Benz.
+BMW,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,3.6,sample,29.10,"Beispieltext 41 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
-Mercedes-Benz,2018,Praktikant,Praktikant,Intern,4.4,sample,29.10,"Beispieltext 4 fuer Mercedes-Benz.
+BMW,2018,Praktikant,Praktikant,Intern,4.4,sample,29.10,"Beispieltext 42 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-Mercedes-Benz,2023,Praktikant,Praktikant,Intern,3.5,sample,29.10,"Beispieltext 5 fuer Mercedes-Benz.
+BMW,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,3.5,sample,29.10,"Beispieltext 43 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Mercedes-Benz,2022,Angestellter,Angestellter,Employee,2.8,sample,29.10,"Beispieltext 6 fuer Mercedes-Benz.
+BMW,2015,Manager,Manager,Manager,2.8,sample,29.10,"Beispieltext 44 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-Mercedes-Benz,2020,Manager,Manager,Manager,4.9,sample,29.10,"Beispieltext 7 fuer Mercedes-Benz.
+BMW,2022,Werkstudent,Werkstudent,Working Student,4.9,sample,29.10,"Beispieltext 45 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Mercedes-Benz,2016,Angestellter,Angestellter,Employee,2.7,sample,29.10,"Beispieltext 8 fuer Mercedes-Benz.
+BMW,2016,Angestellter,Angestellter,Employee,2.7,sample,29.10,"Beispieltext 46 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Mercedes-Benz,2022,Werkstudent,Werkstudent,Working Student,3.9,sample,29.10,"Beispieltext 9 fuer Mercedes-Benz.
+BMW,2020,Manager,Manager,Manager,3.9,sample,29.10,"Beispieltext 47 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Mercedes-Benz,2020,Manager,Manager,Manager,4.4,sample,29.10,"Beispieltext 10 fuer Mercedes-Benz.
+BMW,2022,Werkstudent,Werkstudent,Working Student,4.4,sample,29.10,"Beispieltext 48 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
-Mercedes-Benz,2018,Angestellter,Angestellter,Employee,3.4,sample,29.10,"Beispieltext 11 fuer Mercedes-Benz.
+BMW,2016,Praktikant,Praktikant,Intern,3.4,sample,29.10,"Beispieltext 49 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-Mercedes-Benz,2020,Manager,Manager,Manager,2.3,sample,29.10,"Beispieltext 12 fuer Mercedes-Benz.
+BMW,2021,Werkstudent,Werkstudent,Working Student,2.3,sample,29.10,"Beispieltext 50 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-Mercedes-Benz,2016,Manager,Manager,Manager,4.2,sample,29.10,"Beispieltext 13 fuer Mercedes-Benz.
+BMW,2022,Angestellter,Angestellter,Employee,4.2,sample,29.10,"Beispieltext 51 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-Mercedes-Benz,2017,Praktikant,Praktikant,Intern,3.8,sample,29.10,"Beispieltext 14 fuer Mercedes-Benz.
+BMW,2017,Praktikant,Praktikant,Intern,3.8,sample,29.10,"Beispieltext 52 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Mercedes-Benz,2024,Praktikant,Praktikant,Intern,4.9,sample,29.10,"Beispieltext 15 fuer Mercedes-Benz.
+BMW,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,4.9,sample,29.10,"Beispieltext 53 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Mercedes-Benz,2023,Praktikant,Praktikant,Intern,2.4,sample,29.10,"Beispieltext 16 fuer Mercedes-Benz.
+BMW,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,2.4,sample,29.10,"Beispieltext 54 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
-Mercedes-Benz,2017,Angestellter,Angestellter,Employee,3.3,sample,29.10,"Beispieltext 17 fuer Mercedes-Benz.
+BMW,2016,Praktikant,Praktikant,Intern,3.3,sample,29.10,"Beispieltext 55 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-Mercedes-Benz,2019,Praktikant,Praktikant,Intern,2.6,sample,29.10,"Beispieltext 18 fuer Mercedes-Benz.
+BMW,2018,Werkstudent,Werkstudent,Working Student,2.6,sample,29.10,"Beispieltext 56 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Mercedes-Benz,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,3.6,sample,29.10,"Beispieltext 19 fuer Mercedes-Benz.
+BMW,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,3.3,sample,29.10,"Beispieltext 57 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-Mercedes-Benz,2020,Angestellter,Angestellter,Employee,4.7,sample,29.10,"Beispieltext 20 fuer Mercedes-Benz.
+BMW,2015,Werkstudent,Werkstudent,Working Student,4.7,sample,29.10,"Beispieltext 58 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-Mercedes-Benz,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,2.5,sample,29.10,"Beispieltext 21 fuer Mercedes-Benz.
+BMW,2023,Praktikant,Praktikant,Intern,3.6,sample,29.10,"Beispieltext 59 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Mercedes-Benz,2024,Manager,Manager,Manager,2.0,sample,29.10,"Beispieltext 22 fuer Mercedes-Benz.
+BMW,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.0,sample,29.10,"Beispieltext 60 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Mercedes-Benz,2022,Praktikant,Praktikant,Intern,3.9,sample,29.10,"Beispieltext 23 fuer Mercedes-Benz.
+BMW,2017,Manager,Manager,Manager,3.9,sample,29.10,"Beispieltext 61 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Mercedes-Benz,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,4.0,sample,29.10,"Beispieltext 24 fuer Mercedes-Benz.
+BMW,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,3.6,sample,29.10,"Beispieltext 62 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Mercedes-Benz,2015,Angestellter,Angestellter,Employee,2.7,sample,29.10,"Beispieltext 25 fuer Mercedes-Benz.
+BMW,2016,Angestellter,Angestellter,Employee,2.7,sample,29.10,"Beispieltext 63 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Mercedes-Benz,2023,Angestellter,Angestellter,Employee,3.4,sample,29.10,"Beispieltext 26 fuer Mercedes-Benz.
+BMW,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,3.4,sample,29.10,"Beispieltext 64 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Mercedes-Benz,2020,Angestellter,Angestellter,Employee,3.8,sample,29.10,"Beispieltext 27 fuer Mercedes-Benz.
+BMW,2016,Werkstudent,Werkstudent,Working Student,3.8,sample,29.10,"Beispieltext 65 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-Mercedes-Benz,2023,Werkstudent,Werkstudent,Working Student,3.6,sample,29.10,"Beispieltext 28 fuer Mercedes-Benz.
+BMW,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,3.6,sample,29.10,"Beispieltext 66 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
-Mercedes-Benz,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,4.6,sample,29.10,"Beispieltext 29 fuer Mercedes-Benz.
-Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
-Mercedes-Benz,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.4,sample,29.10,"Beispieltext 30 fuer Mercedes-Benz.
-Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Mercedes-Benz,2020,Manager,Manager,Manager,2.2,sample,29.10,"Beispieltext 31 fuer Mercedes-Benz.
-Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-Mercedes-Benz,2018,Manager,Manager,Manager,4.0,sample,29.10,"Beispieltext 32 fuer Mercedes-Benz.
-Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Mercedes-Benz,2020,Praktikant,Praktikant,Intern,2.4,sample,29.10,"Beispieltext 33 fuer Mercedes-Benz.
+BMW,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,4.6,sample,29.10,"Beispieltext 67 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+BMW,2023,Praktikant,Praktikant,Intern,4.5,sample,29.10,"Beispieltext 68 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-Mercedes-Benz,2016,Manager,Manager,Manager,3.2,sample,29.10,"Beispieltext 34 fuer Mercedes-Benz.
+BMW,2021,Manager,Manager,Manager,3.3,sample,29.10,"Beispieltext 69 fuer BMW.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+BMW,2018,Angestellter,Angestellter,Employee,2.6,sample,29.10,"Beispieltext 70 fuer BMW.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+BMW,2016,Werkstudent,Werkstudent,Working Student,2.4,sample,29.10,"Beispieltext 71 fuer BMW.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+BMW,2022,Angestellter,Angestellter,Employee,3.2,sample,29.10,"Beispieltext 72 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Mercedes-Benz,2018,Praktikant,Praktikant,Intern,2.5,sample,29.10,"Beispieltext 35 fuer Mercedes-Benz.
+BMW,2017,Praktikant,Praktikant,Intern,2.5,sample,29.10,"Beispieltext 73 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-Mercedes-Benz,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,3.3,sample,29.10,"Beispieltext 36 fuer Mercedes-Benz.
+BMW,2023,Manager,Manager,Manager,2.6,sample,29.10,"Beispieltext 74 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-Mercedes-Benz,2020,Werkstudent,Werkstudent,Working Student,2.1,sample,29.10,"Beispieltext 37 fuer Mercedes-Benz.
-Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Mercedes-Benz,2015,Manager,Manager,Manager,3.2,sample,29.10,"Beispieltext 38 fuer Mercedes-Benz.
+BMW,2016,Werkstudent,Werkstudent,Working Student,2.1,sample,29.10,"Beispieltext 75 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+BMW,2022,Angestellter,Angestellter,Employee,3.2,sample,29.10,"Beispieltext 76 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Mercedes-Benz,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,5.0,sample,29.10,"Beispieltext 39 fuer Mercedes-Benz.
+BMW,2023,Angestellter,Angestellter,Employee,5.0,sample,29.10,"Beispieltext 77 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+BMW,2016,Werkstudent,Werkstudent,Working Student,2.8,sample,29.10,"Beispieltext 78 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Audi,2019,Angestellter,Angestellter,Employee,2.8,sample,29.10,"Beispieltext 0 fuer Audi.
-Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Audi,2021,Werkstudent,Werkstudent,Working Student,4.5,sample,29.10,"Beispieltext 1 fuer Audi.
+BMW,2019,Manager,Manager,Manager,4.5,sample,29.10,"Beispieltext 79 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
-Audi,2023,Manager,Manager,Manager,4.8,sample,29.10,"Beispieltext 2 fuer Audi.
+BMW,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,4.8,sample,29.10,"Beispieltext 80 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Audi,2019,Werkstudent,Werkstudent,Working Student,2.2,sample,29.10,"Beispieltext 3 fuer Audi.
+BMW,2020,Werkstudent,Werkstudent,Working Student,2.2,sample,29.10,"Beispieltext 81 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Audi,2019,Manager,Manager,Manager,4.8,sample,29.10,"Beispieltext 4 fuer Audi.
+BMW,2021,Werkstudent,Werkstudent,Working Student,4.8,sample,29.10,"Beispieltext 82 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Audi,2024,Werkstudent,Werkstudent,Working Student,4.6,sample,29.10,"Beispieltext 5 fuer Audi.
+BMW,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,4.6,sample,29.10,"Beispieltext 83 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Audi,2022,Werkstudent,Werkstudent,Working Student,2.0,sample,29.10,"Beispieltext 6 fuer Audi.
+BMW,2019,Manager,Manager,Manager,2.0,sample,29.10,"Beispieltext 84 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Audi,2017,Werkstudent,Werkstudent,Working Student,2.1,sample,29.10,"Beispieltext 7 fuer Audi.
+BMW,2019,Praktikant,Praktikant,Intern,2.1,sample,29.10,"Beispieltext 85 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-Audi,2019,Angestellter,Angestellter,Employee,2.2,sample,29.10,"Beispieltext 8 fuer Audi.
+BMW,2016,Werkstudent,Werkstudent,Working Student,2.2,sample,29.10,"Beispieltext 86 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Audi,2019,Werkstudent,Werkstudent,Working Student,3.6,sample,29.10,"Beispieltext 9 fuer Audi.
+BMW,2019,Werkstudent,Werkstudent,Working Student,3.6,sample,29.10,"Beispieltext 87 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-Audi,2023,Werkstudent,Werkstudent,Working Student,4.0,sample,29.10,"Beispieltext 10 fuer Audi.
+BMW,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,4.0,sample,29.10,"Beispieltext 88 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-Audi,2019,Werkstudent,Werkstudent,Working Student,2.1,sample,29.10,"Beispieltext 11 fuer Audi.
+BMW,2020,Werkstudent,Werkstudent,Working Student,2.1,sample,29.10,"Beispieltext 89 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Audi,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,3.5,sample,29.10,"Beispieltext 12 fuer Audi.
+BMW,2023,Praktikant,Praktikant,Intern,3.5,sample,29.10,"Beispieltext 90 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-Audi,2021,Manager,Manager,Manager,4.0,sample,29.10,"Beispieltext 13 fuer Audi.
+BMW,2022,Manager,Manager,Manager,4.0,sample,29.10,"Beispieltext 91 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Audi,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,4.9,sample,29.10,"Beispieltext 14 fuer Audi.
+BMW,2023,Praktikant,Praktikant,Intern,4.9,sample,29.10,"Beispieltext 92 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-Audi,2017,Praktikant,Praktikant,Intern,3.2,sample,29.10,"Beispieltext 15 fuer Audi.
+BMW,2018,Praktikant,Praktikant,Intern,3.2,sample,29.10,"Beispieltext 93 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Audi,2015,Angestellter,Angestellter,Employee,2.2,sample,29.10,"Beispieltext 16 fuer Audi.
+BMW,2015,Angestellter,Angestellter,Employee,2.2,sample,29.10,"Beispieltext 94 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
-Audi,2015,Manager,Manager,Manager,2.3,sample,29.10,"Beispieltext 17 fuer Audi.
+BMW,2021,Angestellter,Angestellter,Employee,2.3,sample,29.10,"Beispieltext 95 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Audi,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,3.8,sample,29.10,"Beispieltext 18 fuer Audi.
+BMW,2023,Werkstudent,Werkstudent,Working Student,3.8,sample,29.10,"Beispieltext 96 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Audi,2017,Angestellter,Angestellter,Employee,2.5,sample,29.10,"Beispieltext 19 fuer Audi.
+BMW,2015,Praktikant,Praktikant,Intern,2.5,sample,29.10,"Beispieltext 97 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
-Audi,2020,Angestellter,Angestellter,Employee,4.9,sample,29.10,"Beispieltext 20 fuer Audi.
+BMW,2015,Werkstudent,Werkstudent,Working Student,4.9,sample,29.10,"Beispieltext 98 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-Audi,2019,Praktikant,Praktikant,Intern,2.7,sample,29.10,"Beispieltext 21 fuer Audi.
+BMW,2018,Werkstudent,Werkstudent,Working Student,2.7,sample,29.10,"Beispieltext 99 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Audi,2021,Angestellter,Angestellter,Employee,2.3,sample,29.10,"Beispieltext 22 fuer Audi.
+BMW,2015,Manager,Manager,Manager,2.3,sample,29.10,"Beispieltext 100 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-Audi,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,2.7,sample,29.10,"Beispieltext 23 fuer Audi.
+BMW,2023,Praktikant,Praktikant,Intern,3.5,sample,29.10,"Beispieltext 101 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
-Audi,2016,Angestellter,Angestellter,Employee,2.4,sample,29.10,"Beispieltext 24 fuer Audi.
+BMW,2016,Angestellter,Angestellter,Employee,2.4,sample,29.10,"Beispieltext 102 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-Audi,2019,Manager,Manager,Manager,2.9,sample,29.10,"Beispieltext 25 fuer Audi.
+BMW,2021,Werkstudent,Werkstudent,Working Student,2.9,sample,29.10,"Beispieltext 103 fuer BMW.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Audi,2023,Angestellter,Angestellter,Employee,4.6,sample,29.10,"Beispieltext 26 fuer Audi.
+BMW,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,4.6,sample,29.10,"Beispieltext 104 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-Audi,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,4.2,sample,29.10,"Beispieltext 27 fuer Audi.
+BMW,2024,Werkstudent,Werkstudent,Working Student,4.2,sample,29.10,"Beispieltext 105 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
-Audi,2024,Praktikant,Praktikant,Intern,3.9,sample,29.10,"Beispieltext 28 fuer Audi.
+BMW,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,3.9,sample,29.10,"Beispieltext 106 fuer BMW.
 Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-Audi,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,4.2,sample,29.10,"Beispieltext 29 fuer Audi.
+BMW,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,2.4,sample,29.10,"Beispieltext 107 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+BMW,2024,Praktikant,Praktikant,Intern,2.3,sample,29.10,"Beispieltext 108 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+BMW,2017,Werkstudent,Werkstudent,Working Student,4.9,sample,29.10,"Beispieltext 109 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+BMW,2022,Angestellter,Angestellter,Employee,3.9,sample,29.10,"Beispieltext 110 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-Audi,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,4.5,sample,29.10,"Beispieltext 30 fuer Audi.
+BMW,2022,Angestellter,Angestellter,Employee,3.4,sample,29.10,"Beispieltext 111 fuer BMW.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+BMW,2023,Angestellter,Angestellter,Employee,4.0,sample,29.10,"Beispieltext 112 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
-Audi,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,2.3,sample,29.10,"Beispieltext 31 fuer Audi.
-Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
-Audi,2020,Praktikant,Praktikant,Intern,4.9,sample,29.10,"Beispieltext 32 fuer Audi.
+BMW,2022,Angestellter,Angestellter,Employee,4.5,sample,29.10,"Beispieltext 113 fuer BMW.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+BMW,2018,Manager,Manager,Manager,3.5,sample,29.10,"Beispieltext 114 fuer BMW.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+BMW,2016,Werkstudent,Werkstudent,Working Student,4.3,sample,29.10,"Beispieltext 115 fuer BMW.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+BMW,2016,Praktikant,Praktikant,Intern,3.0,sample,29.10,"Beispieltext 116 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+BMW,2024,Angestellter,Angestellter,Employee,3.4,sample,29.10,"Beispieltext 117 fuer BMW.
 Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-Audi,2015,Manager,Manager,Manager,3.9,sample,29.10,"Beispieltext 33 fuer Audi.
+BMW,2019,Angestellter,Angestellter,Employee,4.1,sample,29.10,"Beispieltext 118 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+BMW,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,2.9,sample,29.10,"Beispieltext 119 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+BMW,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.6,sample,29.10,"Beispieltext 120 fuer BMW.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+BMW,2022,Werkstudent,Werkstudent,Working Student,3.4,sample,29.10,"Beispieltext 121 fuer BMW.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+BMW,2019,Praktikant,Praktikant,Intern,4.7,sample,29.10,"Beispieltext 122 fuer BMW.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+BMW,2016,Angestellter,Angestellter,Employee,2.4,sample,29.10,"Beispieltext 123 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+BMW,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,4.5,sample,29.10,"Beispieltext 124 fuer BMW.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+BMW,2016,Werkstudent,Werkstudent,Working Student,2.7,sample,29.10,"Beispieltext 125 fuer BMW.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+BMW,2021,Praktikant,Praktikant,Intern,2.0,sample,29.10,"Beispieltext 126 fuer BMW.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+BMW,2022,Werkstudent,Werkstudent,Working Student,4.2,sample,29.10,"Beispieltext 127 fuer BMW.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+BMW,2020,Werkstudent,Werkstudent,Working Student,2.4,sample,29.10,"Beispieltext 128 fuer BMW.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+BMW,2015,Werkstudent,Werkstudent,Working Student,4.5,sample,29.10,"Beispieltext 129 fuer BMW.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2018,Angestellter,Angestellter,Employee,4.7,sample,29.10,"Beispieltext 0 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2019,Angestellter,Angestellter,Employee,3.2,sample,29.10,"Beispieltext 1 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2020,Werkstudent,Werkstudent,Working Student,4.6,sample,29.10,"Beispieltext 2 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2016,Werkstudent,Werkstudent,Working Student,3.9,sample,29.10,"Beispieltext 3 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2018,Manager,Manager,Manager,3.5,sample,29.10,"Beispieltext 4 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2020,Angestellter,Angestellter,Employee,4.4,sample,29.10,"Beispieltext 5 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2023,Praktikant,Praktikant,Intern,4.2,sample,29.10,"Beispieltext 6 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,4.3,sample,29.10,"Beispieltext 7 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.4,sample,29.10,"Beispieltext 8 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2021,Werkstudent,Werkstudent,Working Student,2.9,sample,29.10,"Beispieltext 9 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2021,Praktikant,Praktikant,Intern,2.9,sample,29.10,"Beispieltext 10 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2016,Praktikant,Praktikant,Intern,2.2,sample,29.10,"Beispieltext 11 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2023,Manager,Manager,Manager,4.7,sample,29.10,"Beispieltext 12 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,2.6,sample,29.10,"Beispieltext 13 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,2.3,sample,29.10,"Beispieltext 14 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,2.6,sample,29.10,"Beispieltext 15 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2021,Manager,Manager,Manager,4.2,sample,29.10,"Beispieltext 16 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2021,Werkstudent,Werkstudent,Working Student,4.3,sample,29.10,"Beispieltext 17 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2019,Werkstudent,Werkstudent,Working Student,2.4,sample,29.10,"Beispieltext 18 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-Audi,2015,Manager,Manager,Manager,3.4,sample,29.10,"Beispieltext 34 fuer Audi.
-Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-Audi,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,4.0,sample,29.10,"Beispieltext 35 fuer Audi.
-Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
-Audi,2016,Manager,Manager,Manager,4.5,sample,29.10,"Beispieltext 36 fuer Audi.
-Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-Audi,2022,Praktikant,Praktikant,Intern,3.5,sample,29.10,"Beispieltext 37 fuer Audi.
-Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Audi,2019,Angestellter,Angestellter,Employee,4.3,sample,29.10,"Beispieltext 38 fuer Audi.
-Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-Audi,2017,Angestellter,Angestellter,Employee,3.0,sample,29.10,"Beispieltext 39 fuer Audi.
-Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Porsche,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,2.0,sample,29.10,"Beispieltext 0 fuer Porsche.
-Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
-Porsche,2016,Manager,Manager,Manager,4.1,sample,29.10,"Beispieltext 1 fuer Porsche.
+Mercedes-Benz,2016,Praktikant,Praktikant,Intern,3.2,sample,29.10,"Beispieltext 19 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2023,Werkstudent,Werkstudent,Working Student,2.9,sample,29.10,"Beispieltext 2 fuer Porsche.
+Mercedes-Benz,2021,Angestellter,Angestellter,Employee,2.4,sample,29.10,"Beispieltext 20 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2022,Manager,Manager,Manager,2.0,sample,29.10,"Beispieltext 21 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2023,Manager,Manager,Manager,2.6,sample,29.10,"Beispieltext 3 fuer Porsche.
+Mercedes-Benz,2023,Manager,Manager,Manager,2.7,sample,29.10,"Beispieltext 22 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2018,Praktikant,Praktikant,Intern,3.6,sample,29.10,"Beispieltext 23 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Porsche,2019,Manager,Manager,Manager,3.4,sample,29.10,"Beispieltext 4 fuer Porsche.
-Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2018,Werkstudent,Werkstudent,Working Student,4.7,sample,29.10,"Beispieltext 5 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-Porsche,2016,Angestellter,Angestellter,Employee,2.4,sample,29.10,"Beispieltext 6 fuer Porsche.
-Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Porsche,2024,Werkstudent,Werkstudent,Working Student,4.5,sample,29.10,"Beispieltext 7 fuer Porsche.
+Mercedes-Benz,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,4.3,sample,29.10,"Beispieltext 24 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,4.8,sample,29.10,"Beispieltext 25 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
-Porsche,2020,Angestellter,Angestellter,Employee,2.7,sample,29.10,"Beispieltext 8 fuer Porsche.
+Mercedes-Benz,2017,Werkstudent,Werkstudent,Working Student,3.6,sample,29.10,"Beispieltext 26 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2017,Manager,Manager,Manager,2.0,sample,29.10,"Beispieltext 9 fuer Porsche.
-Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2019,Manager,Manager,Manager,4.2,sample,29.10,"Beispieltext 10 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2020,Werkstudent,Werkstudent,Working Student,2.4,sample,29.10,"Beispieltext 11 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-Porsche,2020,Angestellter,Angestellter,Employee,4.5,sample,29.10,"Beispieltext 12 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-Porsche,2015,Praktikant,Praktikant,Intern,4.7,sample,29.10,"Beispieltext 13 fuer Porsche.
-Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Porsche,2016,Werkstudent,Werkstudent,Working Student,3.2,sample,29.10,"Beispieltext 14 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-Porsche,2019,Werkstudent,Werkstudent,Working Student,4.6,sample,29.10,"Beispieltext 15 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-Porsche,2019,Angestellter,Angestellter,Employee,3.9,sample,29.10,"Beispieltext 16 fuer Porsche.
+Mercedes-Benz,2016,Angestellter,Angestellter,Employee,2.9,sample,29.10,"Beispieltext 27 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Porsche,2021,Praktikant,Praktikant,Intern,3.5,sample,29.10,"Beispieltext 17 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-Porsche,2015,Werkstudent,Werkstudent,Working Student,4.4,sample,29.10,"Beispieltext 18 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,4.2,sample,29.10,"Beispieltext 19 fuer Porsche.
-Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
-Porsche,2024,Manager,Manager,Manager,4.3,sample,29.10,"Beispieltext 20 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-Porsche,2023,Manager,Manager,Manager,2.4,sample,29.10,"Beispieltext 21 fuer Porsche.
-Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2019,Manager,Manager,Manager,2.9,sample,29.10,"Beispieltext 22 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-Porsche,2018,Manager,Manager,Manager,2.9,sample,29.10,"Beispieltext 23 fuer Porsche.
-Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2017,Angestellter,Angestellter,Employee,2.2,sample,29.10,"Beispieltext 24 fuer Porsche.
-Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,4.7,sample,29.10,"Beispieltext 25 fuer Porsche.
-Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2023,Manager,Manager,Manager,2.6,sample,29.10,"Beispieltext 26 fuer Porsche.
-Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Porsche,2023,Praktikant,Praktikant,Intern,2.3,sample,29.10,"Beispieltext 27 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-Porsche,2024,Werkstudent,Werkstudent,Working Student,2.6,sample,29.10,"Beispieltext 28 fuer Porsche.
+Mercedes-Benz,2021,Praktikant,Praktikant,Intern,4.4,sample,29.10,"Beispieltext 28 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-Porsche,2021,Manager,Manager,Manager,4.2,sample,29.10,"Beispieltext 29 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-Porsche,2020,Manager,Manager,Manager,4.3,sample,29.10,"Beispieltext 30 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2020,Werkstudent,Werkstudent,Working Student,2.4,sample,29.10,"Beispieltext 31 fuer Porsche.
+Mercedes-Benz,2015,Werkstudent,Werkstudent,Working Student,5.0,sample,29.10,"Beispieltext 29 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2020,Praktikant,Praktikant,Intern,3.4,sample,29.10,"Beispieltext 30 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-Porsche,2018,Angestellter,Angestellter,Employee,3.2,sample,29.10,"Beispieltext 32 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2015,Manager,Manager,Manager,2.4,sample,29.10,"Beispieltext 33 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2022,Manager,Manager,Manager,2.0,sample,29.10,"Beispieltext 34 fuer Porsche.
-Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-Porsche,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.7,sample,29.10,"Beispieltext 35 fuer Porsche.
-Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-Porsche,2017,Praktikant,Praktikant,Intern,3.6,sample,29.10,"Beispieltext 36 fuer Porsche.
-Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Porsche,2023,Manager,Manager,Manager,4.3,sample,29.10,"Beispieltext 37 fuer Porsche.
-Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Porsche,2024,Praktikant,Praktikant,Intern,4.8,sample,29.10,"Beispieltext 38 fuer Porsche.
+Mercedes-Benz,2023,Angestellter,Angestellter,Employee,4.9,sample,29.10,"Beispieltext 31 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
-Porsche,2019,Praktikant,Praktikant,Intern,3.6,sample,29.10,"Beispieltext 39 fuer Porsche.
-Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-Volkswagen,2016,Angestellter,Angestellter,Employee,2.9,sample,29.10,"Beispieltext 0 fuer Volkswagen.
-Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Volkswagen,2018,Manager,Manager,Manager,4.4,sample,29.10,"Beispieltext 1 fuer Volkswagen.
-Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-Volkswagen,2019,Angestellter,Angestellter,Employee,5.0,sample,29.10,"Beispieltext 2 fuer Volkswagen.
-Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Volkswagen,2018,Werkstudent,Werkstudent,Working Student,3.4,sample,29.10,"Beispieltext 3 fuer Volkswagen.
-Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
-Volkswagen,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,4.9,sample,29.10,"Beispieltext 4 fuer Volkswagen.
-Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
-Volkswagen,2018,Angestellter,Angestellter,Employee,3.5,sample,29.10,"Beispieltext 5 fuer Volkswagen.
+Mercedes-Benz,2015,Praktikant,Praktikant,Intern,3.5,sample,29.10,"Beispieltext 32 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Volkswagen,2018,Angestellter,Angestellter,Employee,4.0,sample,29.10,"Beispieltext 6 fuer Volkswagen.
+Mercedes-Benz,2016,Praktikant,Praktikant,Intern,4.0,sample,29.10,"Beispieltext 33 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-Volkswagen,2015,Praktikant,Praktikant,Intern,4.1,sample,29.10,"Beispieltext 7 fuer Volkswagen.
+Mercedes-Benz,2018,Angestellter,Angestellter,Employee,4.1,sample,29.10,"Beispieltext 34 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
-Volkswagen,2021,Werkstudent,Werkstudent,Working Student,2.6,sample,29.10,"Beispieltext 8 fuer Volkswagen.
+Mercedes-Benz,2020,Manager,Manager,Manager,2.6,sample,29.10,"Beispieltext 35 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Volkswagen,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,3.5,sample,29.10,"Beispieltext 9 fuer Volkswagen.
+Mercedes-Benz,2023,Praktikant,Praktikant,Intern,3.5,sample,29.10,"Beispieltext 36 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Volkswagen,2018,Werkstudent,Werkstudent,Working Student,3.4,sample,29.10,"Beispieltext 10 fuer Volkswagen.
+Mercedes-Benz,2019,Praktikant,Praktikant,Intern,3.4,sample,29.10,"Beispieltext 37 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
-Volkswagen,2024,Werkstudent,Werkstudent,Working Student,3.5,sample,29.10,"Beispieltext 11 fuer Volkswagen.
+Mercedes-Benz,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,3.5,sample,29.10,"Beispieltext 38 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Volkswagen,2021,Praktikant,Praktikant,Intern,4.7,sample,29.10,"Beispieltext 12 fuer Volkswagen.
+Mercedes-Benz,2018,Manager,Manager,Manager,4.7,sample,29.10,"Beispieltext 39 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-Volkswagen,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,2.2,sample,29.10,"Beispieltext 13 fuer Volkswagen.
+Mercedes-Benz,2024,Manager,Manager,Manager,2.2,sample,29.10,"Beispieltext 40 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Volkswagen,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,2.2,sample,29.10,"Beispieltext 14 fuer Volkswagen.
+Mercedes-Benz,2024,Manager,Manager,Manager,2.2,sample,29.10,"Beispieltext 41 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Volkswagen,2022,Praktikant,Praktikant,Intern,4.7,sample,29.10,"Beispieltext 15 fuer Volkswagen.
+Mercedes-Benz,2017,Manager,Manager,Manager,4.7,sample,29.10,"Beispieltext 42 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
-Volkswagen,2017,Angestellter,Angestellter,Employee,3.0,sample,29.10,"Beispieltext 16 fuer Volkswagen.
+Mercedes-Benz,2016,Praktikant,Praktikant,Intern,3.0,sample,29.10,"Beispieltext 43 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Volkswagen,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.1,sample,29.10,"Beispieltext 17 fuer Volkswagen.
+Mercedes-Benz,2023,Manager,Manager,Manager,2.1,sample,29.10,"Beispieltext 44 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-Volkswagen,2022,Werkstudent,Werkstudent,Working Student,2.5,sample,29.10,"Beispieltext 18 fuer Volkswagen.
+Mercedes-Benz,2020,Manager,Manager,Manager,2.5,sample,29.10,"Beispieltext 45 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-Volkswagen,2016,Angestellter,Angestellter,Employee,3.1,sample,29.10,"Beispieltext 19 fuer Volkswagen.
+Mercedes-Benz,2016,Angestellter,Angestellter,Employee,3.1,sample,29.10,"Beispieltext 46 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-Volkswagen,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,3.1,sample,29.10,"Beispieltext 20 fuer Volkswagen.
+Mercedes-Benz,2023,Manager,Manager,Manager,3.1,sample,29.10,"Beispieltext 47 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
-Volkswagen,2015,Manager,Manager,Manager,4.1,sample,29.10,"Beispieltext 21 fuer Volkswagen.
+Mercedes-Benz,2021,Angestellter,Angestellter,Employee,4.1,sample,29.10,"Beispieltext 48 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Volkswagen,2022,Werkstudent,Werkstudent,Working Student,2.6,sample,29.10,"Beispieltext 22 fuer Volkswagen.
+Mercedes-Benz,2020,Manager,Manager,Manager,2.6,sample,29.10,"Beispieltext 49 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Volkswagen,2021,Manager,Manager,Manager,2.7,sample,29.10,"Beispieltext 23 fuer Volkswagen.
+Mercedes-Benz,2022,Manager,Manager,Manager,2.7,sample,29.10,"Beispieltext 50 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Volkswagen,2015,Angestellter,Angestellter,Employee,3.4,sample,29.10,"Beispieltext 24 fuer Volkswagen.
+Mercedes-Benz,2015,Angestellter,Angestellter,Employee,3.4,sample,29.10,"Beispieltext 51 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-Volkswagen,2016,Werkstudent,Werkstudent,Working Student,4.7,sample,29.10,"Beispieltext 25 fuer Volkswagen.
+Mercedes-Benz,2019,Angestellter,Angestellter,Employee,4.7,sample,29.10,"Beispieltext 52 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
-Volkswagen,2020,Werkstudent,Werkstudent,Working Student,4.9,sample,29.10,"Beispieltext 26 fuer Volkswagen.
+Mercedes-Benz,2020,Werkstudent,Werkstudent,Working Student,4.9,sample,29.10,"Beispieltext 53 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
-Volkswagen,2020,Werkstudent,Werkstudent,Working Student,4.8,sample,29.10,"Beispieltext 27 fuer Volkswagen.
+Mercedes-Benz,2019,Werkstudent,Werkstudent,Working Student,4.8,sample,29.10,"Beispieltext 54 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Volkswagen,2024,Angestellter,Angestellter,Employee,4.7,sample,29.10,"Beispieltext 28 fuer Volkswagen.
+Mercedes-Benz,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,4.7,sample,29.10,"Beispieltext 55 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
-Volkswagen,2016,Angestellter,Angestellter,Employee,3.4,sample,29.10,"Beispieltext 29 fuer Volkswagen.
+Mercedes-Benz,2015,Angestellter,Angestellter,Employee,3.4,sample,29.10,"Beispieltext 56 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
-Volkswagen,2021,Manager,Manager,Manager,4.4,sample,29.10,"Beispieltext 30 fuer Volkswagen.
+Mercedes-Benz,2021,Manager,Manager,Manager,4.4,sample,29.10,"Beispieltext 57 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-Volkswagen,2015,Manager,Manager,Manager,4.4,sample,29.10,"Beispieltext 31 fuer Volkswagen.
+Mercedes-Benz,2022,Angestellter,Angestellter,Employee,4.4,sample,29.10,"Beispieltext 58 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
-Volkswagen,2018,Praktikant,Praktikant,Intern,3.0,sample,29.10,"Beispieltext 32 fuer Volkswagen.
+Mercedes-Benz,2017,Praktikant,Praktikant,Intern,3.0,sample,29.10,"Beispieltext 59 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
-Volkswagen,2024,Manager,Manager,Manager,2.2,sample,29.10,"Beispieltext 33 fuer Volkswagen.
+Mercedes-Benz,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.2,sample,29.10,"Beispieltext 60 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
-Volkswagen,2018,Manager,Manager,Manager,3.2,sample,29.10,"Beispieltext 34 fuer Volkswagen.
+Mercedes-Benz,2021,Praktikant,Praktikant,Intern,3.2,sample,29.10,"Beispieltext 61 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
-Volkswagen,2023,Manager,Manager,Manager,3.0,sample,29.10,"Beispieltext 35 fuer Volkswagen.
+Mercedes-Benz,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,3.0,sample,29.10,"Beispieltext 62 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
-Volkswagen,2019,Angestellter,Angestellter,Employee,3.9,sample,29.10,"Beispieltext 36 fuer Volkswagen.
+Mercedes-Benz,2016,Werkstudent,Werkstudent,Working Student,3.9,sample,29.10,"Beispieltext 63 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Volkswagen,2022,Angestellter,Angestellter,Employee,5.0,sample,29.10,"Beispieltext 37 fuer Volkswagen.
+Mercedes-Benz,2016,Manager,Manager,Manager,5.0,sample,29.10,"Beispieltext 64 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
-Volkswagen,2017,Praktikant,Praktikant,Intern,3.3,sample,29.10,"Beispieltext 38 fuer Volkswagen.
+Mercedes-Benz,2017,Praktikant,Praktikant,Intern,3.3,sample,29.10,"Beispieltext 65 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
-Volkswagen,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,4.3,sample,29.10,"Beispieltext 39 fuer Volkswagen.
+Mercedes-Benz,2023,Angestellter,Angestellter,Employee,4.3,sample,29.10,"Beispieltext 66 fuer Mercedes-Benz.
 Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,2.8,sample,29.10,"Beispieltext 67 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2019,Manager,Manager,Manager,2.7,sample,29.10,"Beispieltext 68 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2018,Werkstudent,Werkstudent,Working Student,4.7,sample,29.10,"Beispieltext 69 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2020,Manager,Manager,Manager,2.8,sample,29.10,"Beispieltext 70 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2023,Praktikant,Praktikant,Intern,3.9,sample,29.10,"Beispieltext 71 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2022,Angestellter,Angestellter,Employee,2.0,sample,29.10,"Beispieltext 72 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2022,Angestellter,Angestellter,Employee,4.6,sample,29.10,"Beispieltext 73 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2016,Praktikant,Praktikant,Intern,3.8,sample,29.10,"Beispieltext 74 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,4.6,sample,29.10,"Beispieltext 75 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2024,Angestellter,Angestellter,Employee,2.3,sample,29.10,"Beispieltext 76 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2018,Werkstudent,Werkstudent,Working Student,3.0,sample,29.10,"Beispieltext 77 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2018,Angestellter,Angestellter,Employee,3.8,sample,29.10,"Beispieltext 78 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2015,Manager,Manager,Manager,4.0,sample,29.10,"Beispieltext 79 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2024,Angestellter,Angestellter,Employee,2.6,sample,29.10,"Beispieltext 80 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2023,Angestellter,Angestellter,Employee,3.2,sample,29.10,"Beispieltext 81 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,2.3,sample,29.10,"Beispieltext 82 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2021,Werkstudent,Werkstudent,Working Student,3.2,sample,29.10,"Beispieltext 83 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2019,Angestellter,Angestellter,Employee,2.9,sample,29.10,"Beispieltext 84 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2021,Angestellter,Angestellter,Employee,4.6,sample,29.10,"Beispieltext 85 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2018,Manager,Manager,Manager,2.6,sample,29.10,"Beispieltext 86 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2021,Manager,Manager,Manager,2.3,sample,29.10,"Beispieltext 87 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2021,Werkstudent,Werkstudent,Working Student,3.4,sample,29.10,"Beispieltext 88 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2017,Angestellter,Angestellter,Employee,3.7,sample,29.10,"Beispieltext 89 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,4.8,sample,29.10,"Beispieltext 90 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2017,Werkstudent,Werkstudent,Working Student,2.5,sample,29.10,"Beispieltext 91 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2016,Manager,Manager,Manager,3.5,sample,29.10,"Beispieltext 92 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2019,Angestellter,Angestellter,Employee,4.9,sample,29.10,"Beispieltext 93 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,4.8,sample,29.10,"Beispieltext 94 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,4.1,sample,29.10,"Beispieltext 95 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2018,Manager,Manager,Manager,3.8,sample,29.10,"Beispieltext 96 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.7,sample,29.10,"Beispieltext 97 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2023,Manager,Manager,Manager,3.1,sample,29.10,"Beispieltext 98 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2018,Praktikant,Praktikant,Intern,2.1,sample,29.10,"Beispieltext 99 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2020,Manager,Manager,Manager,3.8,sample,29.10,"Beispieltext 100 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,2.7,sample,29.10,"Beispieltext 101 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,3.3,sample,29.10,"Beispieltext 102 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2015,Manager,Manager,Manager,3.4,sample,29.10,"Beispieltext 103 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2024,Praktikant,Praktikant,Intern,4.4,sample,29.10,"Beispieltext 104 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2016,Praktikant,Praktikant,Intern,3.1,sample,29.10,"Beispieltext 105 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,3.5,sample,29.10,"Beispieltext 106 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2015,Praktikant,Praktikant,Intern,2.2,sample,29.10,"Beispieltext 107 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2023,Angestellter,Angestellter,Employee,4.3,sample,29.10,"Beispieltext 108 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2017,Angestellter,Angestellter,Employee,5.0,sample,29.10,"Beispieltext 109 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2018,Manager,Manager,Manager,2.9,sample,29.10,"Beispieltext 110 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2018,Werkstudent,Werkstudent,Working Student,3.8,sample,29.10,"Beispieltext 111 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,2.8,sample,29.10,"Beispieltext 112 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,4.9,sample,29.10,"Beispieltext 113 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2018,Werkstudent,Werkstudent,Working Student,3.8,sample,29.10,"Beispieltext 114 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Mercedes-Benz,2020,Angestellter,Angestellter,Employee,2.6,sample,29.10,"Beispieltext 115 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2017,Werkstudent,Werkstudent,Working Student,4.0,sample,29.10,"Beispieltext 116 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2017,Angestellter,Angestellter,Employee,4.3,sample,29.10,"Beispieltext 117 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,3.6,sample,29.10,"Beispieltext 118 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2019,Manager,Manager,Manager,4.2,sample,29.10,"Beispieltext 119 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2019,Werkstudent,Werkstudent,Working Student,3.7,sample,29.10,"Beispieltext 120 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2020,Manager,Manager,Manager,2.7,sample,29.10,"Beispieltext 121 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2019,Werkstudent,Werkstudent,Working Student,2.9,sample,29.10,"Beispieltext 122 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2015,Angestellter,Angestellter,Employee,2.7,sample,29.10,"Beispieltext 123 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2024,Manager,Manager,Manager,3.3,sample,29.10,"Beispieltext 124 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2015,Manager,Manager,Manager,2.7,sample,29.10,"Beispieltext 125 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Mercedes-Benz,2015,Angestellter,Angestellter,Employee,3.7,sample,29.10,"Beispieltext 126 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2016,Werkstudent,Werkstudent,Working Student,3.6,sample,29.10,"Beispieltext 127 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Mercedes-Benz,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,2.4,sample,29.10,"Beispieltext 128 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Mercedes-Benz,2024,Praktikant,Praktikant,Intern,2.4,sample,29.10,"Beispieltext 129 fuer Mercedes-Benz.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Audi,2017,Angestellter,Angestellter,Employee,2.2,sample,29.10,"Beispieltext 0 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Audi,2019,Werkstudent,Werkstudent,Working Student,4.9,sample,29.10,"Beispieltext 1 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,3.9,sample,29.10,"Beispieltext 2 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2024,Manager,Manager,Manager,2.7,sample,29.10,"Beispieltext 3 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,2.1,sample,29.10,"Beispieltext 4 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Audi,2018,Angestellter,Angestellter,Employee,4.7,sample,29.10,"Beispieltext 5 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,4.0,sample,29.10,"Beispieltext 6 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Audi,2017,Praktikant,Praktikant,Intern,3.6,sample,29.10,"Beispieltext 7 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,2.9,sample,29.10,"Beispieltext 8 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Audi,2015,Manager,Manager,Manager,4.1,sample,29.10,"Beispieltext 9 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2021,Manager,Manager,Manager,2.2,sample,29.10,"Beispieltext 10 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2017,Angestellter,Angestellter,Employee,2.8,sample,29.10,"Beispieltext 11 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2016,Werkstudent,Werkstudent,Working Student,4.1,sample,29.10,"Beispieltext 12 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Audi,2023,Manager,Manager,Manager,4.1,sample,29.10,"Beispieltext 13 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2019,Praktikant,Praktikant,Intern,2.3,sample,29.10,"Beispieltext 14 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2017,Praktikant,Praktikant,Intern,4.5,sample,29.10,"Beispieltext 15 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Audi,2017,Werkstudent,Werkstudent,Working Student,2.6,sample,29.10,"Beispieltext 16 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2020,Praktikant,Praktikant,Intern,3.1,sample,29.10,"Beispieltext 17 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2022,Angestellter,Angestellter,Employee,4.6,sample,29.10,"Beispieltext 18 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2018,Werkstudent,Werkstudent,Working Student,4.4,sample,29.10,"Beispieltext 19 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2024,Angestellter,Angestellter,Employee,3.7,sample,29.10,"Beispieltext 20 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Audi,2017,Angestellter,Angestellter,Employee,2.3,sample,29.10,"Beispieltext 21 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Audi,2020,Angestellter,Angestellter,Employee,2.1,sample,29.10,"Beispieltext 22 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Audi,2015,Angestellter,Angestellter,Employee,4.2,sample,29.10,"Beispieltext 23 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2024,Praktikant,Praktikant,Intern,4.5,sample,29.10,"Beispieltext 24 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2021,Praktikant,Praktikant,Intern,2.6,sample,29.10,"Beispieltext 25 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2015,Angestellter,Angestellter,Employee,4.5,sample,29.10,"Beispieltext 26 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Audi,2022,Praktikant,Praktikant,Intern,2.3,sample,29.10,"Beispieltext 27 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Audi,2019,Werkstudent,Werkstudent,Working Student,3.3,sample,29.10,"Beispieltext 28 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2020,Werkstudent,Werkstudent,Working Student,2.1,sample,29.10,"Beispieltext 29 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Audi,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,3.4,sample,29.10,"Beispieltext 30 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2024,Angestellter,Angestellter,Employee,4.4,sample,29.10,"Beispieltext 31 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2021,Angestellter,Angestellter,Employee,3.0,sample,29.10,"Beispieltext 32 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2023,Praktikant,Praktikant,Intern,4.1,sample,29.10,"Beispieltext 33 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2024,Praktikant,Praktikant,Intern,3.3,sample,29.10,"Beispieltext 34 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Audi,2019,Angestellter,Angestellter,Employee,3.0,sample,29.10,"Beispieltext 35 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2022,Praktikant,Praktikant,Intern,4.9,sample,29.10,"Beispieltext 36 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,4.8,sample,29.10,"Beispieltext 37 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Audi,2018,Praktikant,Praktikant,Intern,3.5,sample,29.10,"Beispieltext 38 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,4.4,sample,29.10,"Beispieltext 39 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Audi,2020,Manager,Manager,Manager,4.8,sample,29.10,"Beispieltext 40 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2021,Angestellter,Angestellter,Employee,3.1,sample,29.10,"Beispieltext 41 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,3.5,sample,29.10,"Beispieltext 42 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2018,Praktikant,Praktikant,Intern,3.6,sample,29.10,"Beispieltext 43 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2020,Werkstudent,Werkstudent,Working Student,3.6,sample,29.10,"Beispieltext 44 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2023,Werkstudent,Werkstudent,Working Student,2.5,sample,29.10,"Beispieltext 45 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2019,Praktikant,Praktikant,Intern,2.4,sample,29.10,"Beispieltext 46 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2018,Praktikant,Praktikant,Intern,2.8,sample,29.10,"Beispieltext 47 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Audi,2017,Werkstudent,Werkstudent,Working Student,3.8,sample,29.10,"Beispieltext 48 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Audi,2017,Werkstudent,Werkstudent,Working Student,4.9,sample,29.10,"Beispieltext 49 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Audi,2016,Angestellter,Angestellter,Employee,2.6,sample,29.10,"Beispieltext 50 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Audi,2017,Werkstudent,Werkstudent,Working Student,3.3,sample,29.10,"Beispieltext 51 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Audi,2016,Angestellter,Angestellter,Employee,2.8,sample,29.10,"Beispieltext 52 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2022,Angestellter,Angestellter,Employee,3.2,sample,29.10,"Beispieltext 53 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2018,Werkstudent,Werkstudent,Working Student,3.4,sample,29.10,"Beispieltext 54 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Audi,2019,Manager,Manager,Manager,2.0,sample,29.10,"Beispieltext 55 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Audi,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,3.8,sample,29.10,"Beispieltext 56 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,4.6,sample,29.10,"Beispieltext 57 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Audi,2016,Manager,Manager,Manager,2.9,sample,29.10,"Beispieltext 58 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2021,Manager,Manager,Manager,4.1,sample,29.10,"Beispieltext 59 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Audi,2019,Manager,Manager,Manager,3.4,sample,29.10,"Beispieltext 60 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2023,Praktikant,Praktikant,Intern,4.7,sample,29.10,"Beispieltext 61 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2015,Manager,Manager,Manager,4.7,sample,29.10,"Beispieltext 62 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,2.7,sample,29.10,"Beispieltext 63 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Audi,2023,Angestellter,Angestellter,Employee,4.5,sample,29.10,"Beispieltext 64 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2023,Manager,Manager,Manager,3.5,sample,29.10,"Beispieltext 65 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Audi,2023,Manager,Manager,Manager,4.2,sample,29.10,"Beispieltext 66 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2018,Praktikant,Praktikant,Intern,3.2,sample,29.10,"Beispieltext 67 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2024,Angestellter,Angestellter,Employee,2.8,sample,29.10,"Beispieltext 68 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2021,Angestellter,Angestellter,Employee,2.2,sample,29.10,"Beispieltext 69 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2020,Werkstudent,Werkstudent,Working Student,2.3,sample,29.10,"Beispieltext 70 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2021,Praktikant,Praktikant,Intern,5.0,sample,29.10,"Beispieltext 71 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2022,Praktikant,Praktikant,Intern,2.4,sample,29.10,"Beispieltext 72 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,4.2,sample,29.10,"Beispieltext 73 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Audi,2020,Manager,Manager,Manager,3.4,sample,29.10,"Beispieltext 74 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2023,Praktikant,Praktikant,Intern,4.3,sample,29.10,"Beispieltext 75 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2020,Werkstudent,Werkstudent,Working Student,4.1,sample,29.10,"Beispieltext 76 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Audi,2021,Praktikant,Praktikant,Intern,3.4,sample,29.10,"Beispieltext 77 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2020,Werkstudent,Werkstudent,Working Student,3.0,sample,29.10,"Beispieltext 78 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2021,Angestellter,Angestellter,Employee,4.0,sample,29.10,"Beispieltext 79 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2017,Manager,Manager,Manager,2.2,sample,29.10,"Beispieltext 80 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Audi,2017,Werkstudent,Werkstudent,Working Student,3.9,sample,29.10,"Beispieltext 81 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2015,Angestellter,Angestellter,Employee,4.0,sample,29.10,"Beispieltext 82 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Audi,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,2.4,sample,29.10,"Beispieltext 83 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Audi,2017,Werkstudent,Werkstudent,Working Student,4.4,sample,29.10,"Beispieltext 84 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Audi,2021,Praktikant,Praktikant,Intern,3.8,sample,29.10,"Beispieltext 85 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2023,Werkstudent,Werkstudent,Working Student,2.6,sample,29.10,"Beispieltext 86 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Audi,2023,Manager,Manager,Manager,4.0,sample,29.10,"Beispieltext 87 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2023,Werkstudent,Werkstudent,Working Student,3.3,sample,29.10,"Beispieltext 88 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Audi,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.2,sample,29.10,"Beispieltext 89 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2017,Manager,Manager,Manager,2.7,sample,29.10,"Beispieltext 90 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Audi,2023,Angestellter,Angestellter,Employee,2.5,sample,29.10,"Beispieltext 91 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,3.5,sample,29.10,"Beispieltext 92 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2022,Manager,Manager,Manager,3.3,sample,29.10,"Beispieltext 93 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2017,Werkstudent,Werkstudent,Working Student,3.9,sample,29.10,"Beispieltext 94 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2015,Angestellter,Angestellter,Employee,4.0,sample,29.10,"Beispieltext 95 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2016,Manager,Manager,Manager,3.5,sample,29.10,"Beispieltext 96 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Audi,2015,Manager,Manager,Manager,3.9,sample,29.10,"Beispieltext 97 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Audi,2016,Werkstudent,Werkstudent,Working Student,3.0,sample,29.10,"Beispieltext 98 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Audi,2019,Werkstudent,Werkstudent,Working Student,3.3,sample,29.10,"Beispieltext 99 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2019,Werkstudent,Werkstudent,Working Student,4.5,sample,29.10,"Beispieltext 100 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2020,Werkstudent,Werkstudent,Working Student,4.6,sample,29.10,"Beispieltext 101 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2018,Manager,Manager,Manager,4.4,sample,29.10,"Beispieltext 102 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2018,Werkstudent,Werkstudent,Working Student,2.4,sample,29.10,"Beispieltext 103 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,4.7,sample,29.10,"Beispieltext 104 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2021,Angestellter,Angestellter,Employee,2.0,sample,29.10,"Beispieltext 105 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Audi,2022,Angestellter,Angestellter,Employee,4.4,sample,29.10,"Beispieltext 106 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,4.6,sample,29.10,"Beispieltext 107 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2018,Manager,Manager,Manager,3.9,sample,29.10,"Beispieltext 108 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Audi,2016,Praktikant,Praktikant,Intern,4.6,sample,29.10,"Beispieltext 109 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2016,Angestellter,Angestellter,Employee,3.1,sample,29.10,"Beispieltext 110 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Audi,2019,Werkstudent,Werkstudent,Working Student,4.6,sample,29.10,"Beispieltext 111 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Audi,2021,Werkstudent,Werkstudent,Working Student,2.1,sample,29.10,"Beispieltext 112 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.1,sample,29.10,"Beispieltext 113 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2021,Manager,Manager,Manager,3.3,sample,29.10,"Beispieltext 114 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,5.0,sample,29.10,"Beispieltext 115 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Audi,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.3,sample,29.10,"Beispieltext 116 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2018,Angestellter,Angestellter,Employee,3.3,sample,29.10,"Beispieltext 117 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2016,Praktikant,Praktikant,Intern,4.6,sample,29.10,"Beispieltext 118 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Audi,2022,Werkstudent,Werkstudent,Working Student,4.2,sample,29.10,"Beispieltext 119 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Audi,2022,Praktikant,Praktikant,Intern,4.8,sample,29.10,"Beispieltext 120 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Audi,2017,Angestellter,Angestellter,Employee,2.9,sample,29.10,"Beispieltext 121 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2022,Werkstudent,Werkstudent,Working Student,4.7,sample,29.10,"Beispieltext 122 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2015,Angestellter,Angestellter,Employee,2.0,sample,29.10,"Beispieltext 123 fuer Audi.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2021,Werkstudent,Werkstudent,Working Student,4.2,sample,29.10,"Beispieltext 124 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Audi,2022,Angestellter,Angestellter,Employee,2.9,sample,29.10,"Beispieltext 125 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2022,Praktikant,Praktikant,Intern,2.4,sample,29.10,"Beispieltext 126 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Audi,2020,Praktikant,Praktikant,Intern,3.9,sample,29.10,"Beispieltext 127 fuer Audi.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Audi,2022,Manager,Manager,Manager,4.8,sample,29.10,"Beispieltext 128 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Audi,2019,Angestellter,Angestellter,Employee,3.9,sample,29.10,"Beispieltext 129 fuer Audi.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Porsche,2024,Angestellter,Angestellter,Employee,4.5,sample,29.10,"Beispieltext 0 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Porsche,2024,Praktikant,Praktikant,Intern,3.1,sample,29.10,"Beispieltext 1 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2024,Manager,Manager,Manager,2.8,sample,29.10,"Beispieltext 2 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2020,Werkstudent,Werkstudent,Working Student,3.3,sample,29.10,"Beispieltext 3 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,2.4,sample,29.10,"Beispieltext 4 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2020,Angestellter,Angestellter,Employee,3.6,sample,29.10,"Beispieltext 5 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2021,Praktikant,Praktikant,Intern,2.9,sample,29.10,"Beispieltext 6 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2021,Praktikant,Praktikant,Intern,4.8,sample,29.10,"Beispieltext 7 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,2.3,sample,29.10,"Beispieltext 8 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Porsche,2016,Manager,Manager,Manager,3.7,sample,29.10,"Beispieltext 9 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Porsche,2023,Manager,Manager,Manager,3.5,sample,29.10,"Beispieltext 10 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Porsche,2018,Praktikant,Praktikant,Intern,2.3,sample,29.10,"Beispieltext 11 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Porsche,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,3.1,sample,29.10,"Beispieltext 12 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Porsche,2018,Manager,Manager,Manager,3.1,sample,29.10,"Beispieltext 13 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2020,Manager,Manager,Manager,4.4,sample,29.10,"Beispieltext 14 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Porsche,2020,Angestellter,Angestellter,Employee,3.0,sample,29.10,"Beispieltext 15 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2016,Praktikant,Praktikant,Intern,5.0,sample,29.10,"Beispieltext 16 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2024,Praktikant,Praktikant,Intern,2.8,sample,29.10,"Beispieltext 17 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Porsche,2021,Manager,Manager,Manager,4.3,sample,29.10,"Beispieltext 18 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Porsche,2019,Werkstudent,Werkstudent,Working Student,2.6,sample,29.10,"Beispieltext 19 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Porsche,2021,Angestellter,Angestellter,Employee,2.2,sample,29.10,"Beispieltext 20 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Porsche,2022,Angestellter,Angestellter,Employee,4.6,sample,29.10,"Beispieltext 21 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2016,Angestellter,Angestellter,Employee,2.8,sample,29.10,"Beispieltext 22 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Porsche,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,3.2,sample,29.10,"Beispieltext 23 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2017,Praktikant,Praktikant,Intern,5.0,sample,29.10,"Beispieltext 24 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Porsche,2017,Werkstudent,Werkstudent,Working Student,4.8,sample,29.10,"Beispieltext 25 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2023,Angestellter,Angestellter,Employee,2.8,sample,29.10,"Beispieltext 26 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2015,Praktikant,Praktikant,Intern,3.0,sample,29.10,"Beispieltext 27 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2018,Werkstudent,Werkstudent,Working Student,3.8,sample,29.10,"Beispieltext 28 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2016,Werkstudent,Werkstudent,Working Student,3.1,sample,29.10,"Beispieltext 29 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2016,Manager,Manager,Manager,3.1,sample,29.10,"Beispieltext 30 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2018,Angestellter,Angestellter,Employee,3.4,sample,29.10,"Beispieltext 31 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Porsche,2015,Praktikant,Praktikant,Intern,2.2,sample,29.10,"Beispieltext 32 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Porsche,2017,Angestellter,Angestellter,Employee,4.8,sample,29.10,"Beispieltext 33 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2015,Angestellter,Angestellter,Employee,3.4,sample,29.10,"Beispieltext 34 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Porsche,2020,Manager,Manager,Manager,2.3,sample,29.10,"Beispieltext 35 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Porsche,2017,Praktikant,Praktikant,Intern,4.2,sample,29.10,"Beispieltext 36 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Porsche,2022,Praktikant,Praktikant,Intern,3.3,sample,29.10,"Beispieltext 37 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Porsche,2019,Manager,Manager,Manager,2.7,sample,29.10,"Beispieltext 38 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2019,Werkstudent,Werkstudent,Working Student,3.0,sample,29.10,"Beispieltext 39 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Porsche,2019,Angestellter,Angestellter,Employee,3.0,sample,29.10,"Beispieltext 40 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,2.2,sample,29.10,"Beispieltext 41 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Porsche,2023,Werkstudent,Werkstudent,Working Student,2.4,sample,29.10,"Beispieltext 42 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Porsche,2020,Werkstudent,Werkstudent,Working Student,5.0,sample,29.10,"Beispieltext 43 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Porsche,2016,Werkstudent,Werkstudent,Working Student,3.2,sample,29.10,"Beispieltext 44 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Porsche,2015,Werkstudent,Werkstudent,Working Student,2.4,sample,29.10,"Beispieltext 45 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2022,Werkstudent,Werkstudent,Working Student,3.5,sample,29.10,"Beispieltext 46 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2015,Werkstudent,Werkstudent,Working Student,2.6,sample,29.10,"Beispieltext 47 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2015,Praktikant,Praktikant,Intern,2.8,sample,29.10,"Beispieltext 48 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Porsche,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,4.3,sample,29.10,"Beispieltext 49 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Porsche,2018,Angestellter,Angestellter,Employee,4.5,sample,29.10,"Beispieltext 50 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2019,Praktikant,Praktikant,Intern,2.4,sample,29.10,"Beispieltext 51 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Porsche,2024,Praktikant,Praktikant,Intern,2.0,sample,29.10,"Beispieltext 52 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2015,Werkstudent,Werkstudent,Working Student,3.0,sample,29.10,"Beispieltext 53 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2016,Manager,Manager,Manager,4.7,sample,29.10,"Beispieltext 54 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2017,Werkstudent,Werkstudent,Working Student,2.7,sample,29.10,"Beispieltext 55 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Porsche,2015,Werkstudent,Werkstudent,Working Student,3.7,sample,29.10,"Beispieltext 56 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2020,Manager,Manager,Manager,4.9,sample,29.10,"Beispieltext 57 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2016,Praktikant,Praktikant,Intern,4.4,sample,29.10,"Beispieltext 58 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Porsche,2021,Angestellter,Angestellter,Employee,2.9,sample,29.10,"Beispieltext 59 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.1,sample,29.10,"Beispieltext 60 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Porsche,2015,Angestellter,Angestellter,Employee,2.7,sample,29.10,"Beispieltext 61 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Porsche,2017,Werkstudent,Werkstudent,Working Student,2.8,sample,29.10,"Beispieltext 62 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2015,Praktikant,Praktikant,Intern,2.8,sample,29.10,"Beispieltext 63 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2023,Manager,Manager,Manager,2.3,sample,29.10,"Beispieltext 64 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2017,Werkstudent,Werkstudent,Working Student,2.4,sample,29.10,"Beispieltext 65 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2024,Werkstudent,Werkstudent,Working Student,2.3,sample,29.10,"Beispieltext 66 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,3.8,sample,29.10,"Beispieltext 67 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Porsche,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,3.4,sample,29.10,"Beispieltext 68 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2017,Manager,Manager,Manager,4.1,sample,29.10,"Beispieltext 69 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2021,Werkstudent,Werkstudent,Working Student,3.0,sample,29.10,"Beispieltext 70 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Porsche,2020,Manager,Manager,Manager,4.5,sample,29.10,"Beispieltext 71 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Porsche,2021,Angestellter,Angestellter,Employee,3.0,sample,29.10,"Beispieltext 72 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Porsche,2020,Manager,Manager,Manager,4.0,sample,29.10,"Beispieltext 73 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,2.6,sample,29.10,"Beispieltext 74 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Porsche,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,4.0,sample,29.10,"Beispieltext 75 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Porsche,2017,Manager,Manager,Manager,4.3,sample,29.10,"Beispieltext 76 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2015,Angestellter,Angestellter,Employee,4.6,sample,29.10,"Beispieltext 77 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Porsche,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,4.4,sample,29.10,"Beispieltext 78 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2024,Werkstudent,Werkstudent,Working Student,2.4,sample,29.10,"Beispieltext 79 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2021,Angestellter,Angestellter,Employee,2.9,sample,29.10,"Beispieltext 80 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Porsche,2020,Praktikant,Praktikant,Intern,2.4,sample,29.10,"Beispieltext 81 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Porsche,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,3.6,sample,29.10,"Beispieltext 82 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Porsche,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.4,sample,29.10,"Beispieltext 83 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Porsche,2021,Werkstudent,Werkstudent,Working Student,2.8,sample,29.10,"Beispieltext 84 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2023,Manager,Manager,Manager,3.8,sample,29.10,"Beispieltext 85 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Porsche,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,4.1,sample,29.10,"Beispieltext 86 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,3.4,sample,29.10,"Beispieltext 87 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Porsche,2015,Werkstudent,Werkstudent,Working Student,2.7,sample,29.10,"Beispieltext 88 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2024,Angestellter,Angestellter,Employee,4.8,sample,29.10,"Beispieltext 89 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Porsche,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,3.0,sample,29.10,"Beispieltext 90 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Porsche,2019,Werkstudent,Werkstudent,Working Student,2.2,sample,29.10,"Beispieltext 91 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2017,Angestellter,Angestellter,Employee,3.8,sample,29.10,"Beispieltext 92 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Porsche,2022,Angestellter,Angestellter,Employee,3.6,sample,29.10,"Beispieltext 93 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2020,Angestellter,Angestellter,Employee,3.6,sample,29.10,"Beispieltext 94 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Porsche,2021,Werkstudent,Werkstudent,Working Student,2.4,sample,29.10,"Beispieltext 95 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Porsche,2024,Werkstudent,Werkstudent,Working Student,4.5,sample,29.10,"Beispieltext 96 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2022,Praktikant,Praktikant,Intern,3.2,sample,29.10,"Beispieltext 97 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,3.8,sample,29.10,"Beispieltext 98 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2021,Praktikant,Praktikant,Intern,3.3,sample,29.10,"Beispieltext 99 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Porsche,2024,Angestellter,Angestellter,Employee,3.1,sample,29.10,"Beispieltext 100 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2022,Werkstudent,Werkstudent,Working Student,2.9,sample,29.10,"Beispieltext 101 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,3.2,sample,29.10,"Beispieltext 102 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Porsche,2015,Manager,Manager,Manager,3.1,sample,29.10,"Beispieltext 103 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Porsche,2017,Werkstudent,Werkstudent,Working Student,4.4,sample,29.10,"Beispieltext 104 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,2.7,sample,29.10,"Beispieltext 105 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Porsche,2020,Praktikant,Praktikant,Intern,4.9,sample,29.10,"Beispieltext 106 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Porsche,2021,Angestellter,Angestellter,Employee,2.1,sample,29.10,"Beispieltext 107 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2019,Werkstudent,Werkstudent,Working Student,3.6,sample,29.10,"Beispieltext 108 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2023,Manager,Manager,Manager,3.2,sample,29.10,"Beispieltext 109 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Porsche,2015,Werkstudent,Werkstudent,Working Student,3.4,sample,29.10,"Beispieltext 110 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2016,Praktikant,Praktikant,Intern,2.3,sample,29.10,"Beispieltext 111 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Porsche,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,4.8,sample,29.10,"Beispieltext 112 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Porsche,2018,Manager,Manager,Manager,3.2,sample,29.10,"Beispieltext 113 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Porsche,2023,Angestellter,Angestellter,Employee,2.5,sample,29.10,"Beispieltext 114 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Porsche,2020,Werkstudent,Werkstudent,Working Student,3.5,sample,29.10,"Beispieltext 115 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2019,Werkstudent,Werkstudent,Working Student,4.5,sample,29.10,"Beispieltext 116 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2017,Werkstudent,Werkstudent,Working Student,4.4,sample,29.10,"Beispieltext 117 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Porsche,2023,Manager,Manager,Manager,2.5,sample,29.10,"Beispieltext 118 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2020,Angestellter,Angestellter,Employee,4.1,sample,29.10,"Beispieltext 119 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,2.0,sample,29.10,"Beispieltext 120 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Porsche,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,2.0,sample,29.10,"Beispieltext 121 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2018,Manager,Manager,Manager,4.3,sample,29.10,"Beispieltext 122 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Porsche,2023,Praktikant,Praktikant,Intern,3.7,sample,29.10,"Beispieltext 123 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2024,Praktikant,Praktikant,Intern,2.5,sample,29.10,"Beispieltext 124 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2015,Angestellter,Angestellter,Employee,2.5,sample,29.10,"Beispieltext 125 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Porsche,2022,Manager,Manager,Manager,4.4,sample,29.10,"Beispieltext 126 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,3.0,sample,29.10,"Beispieltext 127 fuer Porsche.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Porsche,2020,Praktikant,Praktikant,Intern,2.1,sample,29.10,"Beispieltext 128 fuer Porsche.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Porsche,2024,Werkstudent,Werkstudent,Working Student,2.6,sample,29.10,"Beispieltext 129 fuer Porsche.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2015,Praktikant,Praktikant,Intern,4.7,sample,29.10,"Beispieltext 0 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.7,sample,29.10,"Beispieltext 1 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,4.6,sample,29.10,"Beispieltext 2 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2015,Werkstudent,Werkstudent,Working Student,3.3,sample,29.10,"Beispieltext 3 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2022,Praktikant,Praktikant,Intern,4.0,sample,29.10,"Beispieltext 4 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2021,Manager,Manager,Manager,4.6,sample,29.10,"Beispieltext 5 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2015,Angestellter,Angestellter,Employee,2.5,sample,29.10,"Beispieltext 6 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2021,Angestellter,Angestellter,Employee,4.9,sample,29.10,"Beispieltext 7 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2021,Werkstudent,Werkstudent,Working Student,2.3,sample,29.10,"Beispieltext 8 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2020,Angestellter,Angestellter,Employee,4.9,sample,29.10,"Beispieltext 9 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2020,Praktikant,Praktikant,Intern,3.2,sample,29.10,"Beispieltext 10 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2019,Praktikant,Praktikant,Intern,3.3,sample,29.10,"Beispieltext 11 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2015,Praktikant,Praktikant,Intern,2.7,sample,29.10,"Beispieltext 12 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2016,Werkstudent,Werkstudent,Working Student,3.6,sample,29.10,"Beispieltext 13 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2023,Manager,Manager,Manager,4.5,sample,29.10,"Beispieltext 14 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2017,Werkstudent,Werkstudent,Working Student,2.6,sample,29.10,"Beispieltext 15 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,2.6,sample,29.10,"Beispieltext 16 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2023,Praktikant,Praktikant,Intern,4.6,sample,29.10,"Beispieltext 17 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2019,Manager,Manager,Manager,3.8,sample,29.10,"Beispieltext 18 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2023,Manager,Manager,Manager,3.8,sample,29.10,"Beispieltext 19 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,2.3,sample,29.10,"Beispieltext 20 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,2.4,sample,29.10,"Beispieltext 21 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2021,Angestellter,Angestellter,Employee,4.1,sample,29.10,"Beispieltext 22 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2020,Angestellter,Angestellter,Employee,2.2,sample,29.10,"Beispieltext 23 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2023,Praktikant,Praktikant,Intern,2.2,sample,29.10,"Beispieltext 24 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2016,Werkstudent,Werkstudent,Working Student,2.4,sample,29.10,"Beispieltext 25 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2019,Manager,Manager,Manager,4.5,sample,29.10,"Beispieltext 26 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2017,Praktikant,Praktikant,Intern,2.1,sample,29.10,"Beispieltext 27 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2021,Manager,Manager,Manager,2.7,sample,29.10,"Beispieltext 28 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2020,Angestellter,Angestellter,Employee,2.5,sample,29.10,"Beispieltext 29 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2019,Praktikant,Praktikant,Intern,4.1,sample,29.10,"Beispieltext 30 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,2.5,sample,29.10,"Beispieltext 31 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2019,Manager,Manager,Manager,4.2,sample,29.10,"Beispieltext 32 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2017,Praktikant,Praktikant,Intern,3.7,sample,29.10,"Beispieltext 33 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,3.0,sample,29.10,"Beispieltext 34 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2016,Werkstudent,Werkstudent,Working Student,4.7,sample,29.10,"Beispieltext 35 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2018,Angestellter,Angestellter,Employee,2.1,sample,29.10,"Beispieltext 36 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2018,Angestellter,Angestellter,Employee,3.3,sample,29.10,"Beispieltext 37 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2024,Werkstudent,Werkstudent,Working Student,3.6,sample,29.10,"Beispieltext 38 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2021,Werkstudent,Werkstudent,Working Student,4.1,sample,29.10,"Beispieltext 39 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2023,Praktikant,Praktikant,Intern,3.3,sample,29.10,"Beispieltext 40 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2022,Angestellter,Angestellter,Employee,4.9,sample,29.10,"Beispieltext 41 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2017,Praktikant,Praktikant,Intern,4.9,sample,29.10,"Beispieltext 42 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2023,Praktikant,Praktikant,Intern,4.9,sample,29.10,"Beispieltext 43 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2020,Manager,Manager,Manager,2.3,sample,29.10,"Beispieltext 44 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2017,Manager,Manager,Manager,4.0,sample,29.10,"Beispieltext 45 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,4.1,sample,29.10,"Beispieltext 46 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2020,Werkstudent,Werkstudent,Working Student,2.4,sample,29.10,"Beispieltext 47 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2024,Praktikant,Praktikant,Intern,3.0,sample,29.10,"Beispieltext 48 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2023,Praktikant,Praktikant,Intern,4.0,sample,29.10,"Beispieltext 49 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2024,Manager,Manager,Manager,4.5,sample,29.10,"Beispieltext 50 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2019,Werkstudent,Werkstudent,Working Student,3.5,sample,29.10,"Beispieltext 51 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2015,Werkstudent,Werkstudent,Working Student,2.6,sample,29.10,"Beispieltext 52 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2022,Praktikant,Praktikant,Intern,3.0,sample,29.10,"Beispieltext 53 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2024,Werkstudent,Werkstudent,Working Student,2.5,sample,29.10,"Beispieltext 54 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2015,Manager,Manager,Manager,5.0,sample,29.10,"Beispieltext 55 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2016,Werkstudent,Werkstudent,Working Student,4.9,sample,29.10,"Beispieltext 56 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2016,Manager,Manager,Manager,4.9,sample,29.10,"Beispieltext 57 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2018,Werkstudent,Werkstudent,Working Student,2.0,sample,29.10,"Beispieltext 58 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,4.8,sample,29.10,"Beispieltext 59 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2018,Praktikant,Praktikant,Intern,4.2,sample,29.10,"Beispieltext 60 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2021,Werkstudent,Werkstudent,Working Student,3.1,sample,29.10,"Beispieltext 61 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2016,Werkstudent,Werkstudent,Working Student,4.2,sample,29.10,"Beispieltext 62 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2021,Werkstudent,Werkstudent,Working Student,3.0,sample,29.10,"Beispieltext 63 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2017,Werkstudent,Werkstudent,Working Student,4.5,sample,29.10,"Beispieltext 64 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2018,Angestellter,Angestellter,Employee,2.3,sample,29.10,"Beispieltext 65 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2015,Manager,Manager,Manager,3.3,sample,29.10,"Beispieltext 66 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,3.9,sample,29.10,"Beispieltext 67 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2018,Praktikant,Praktikant,Intern,3.3,sample,29.10,"Beispieltext 68 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2016,Manager,Manager,Manager,3.4,sample,29.10,"Beispieltext 69 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2020,Angestellter,Angestellter,Employee,4.5,sample,29.10,"Beispieltext 70 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2017,Angestellter,Angestellter,Employee,4.0,sample,29.10,"Beispieltext 71 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2020,Manager,Manager,Manager,2.0,sample,29.10,"Beispieltext 72 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2017,Werkstudent,Werkstudent,Working Student,2.0,sample,29.10,"Beispieltext 73 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2024,Manager,Manager,Manager,2.3,sample,29.10,"Beispieltext 74 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2023,Manager,Manager,Manager,4.9,sample,29.10,"Beispieltext 75 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,2.2,sample,29.10,"Beispieltext 76 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2020,Werkstudent,Werkstudent,Working Student,3.7,sample,29.10,"Beispieltext 77 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2020,Praktikant,Praktikant,Intern,2.9,sample,29.10,"Beispieltext 78 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2023,Angestellter,Angestellter,Employee,4.5,sample,29.10,"Beispieltext 79 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2022,Angestellter,Angestellter,Employee,2.4,sample,29.10,"Beispieltext 80 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2023,Manager,Manager,Manager,3.1,sample,29.10,"Beispieltext 81 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2024,Manager,Manager,Manager,2.8,sample,29.10,"Beispieltext 82 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,4.2,sample,29.10,"Beispieltext 83 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2019,Angestellter,Angestellter,Employee,2.6,sample,29.10,"Beispieltext 84 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,3.4,sample,29.10,"Beispieltext 85 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,2.2,sample,29.10,"Beispieltext 86 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2016,Praktikant,Praktikant,Intern,4.6,sample,29.10,"Beispieltext 87 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2023,Manager,Manager,Manager,4.5,sample,29.10,"Beispieltext 88 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2023,Praktikant,Praktikant,Intern,3.7,sample,29.10,"Beispieltext 89 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,2.2,sample,29.10,"Beispieltext 90 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2015,Angestellter,Angestellter,Employee,2.0,sample,29.10,"Beispieltext 91 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2022,Angestellter,Angestellter,Employee,4.1,sample,29.10,"Beispieltext 92 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2016,Praktikant,Praktikant,Intern,3.7,sample,29.10,"Beispieltext 93 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2017,Werkstudent,Werkstudent,Working Student,4.4,sample,29.10,"Beispieltext 94 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2019,Praktikant,Praktikant,Intern,3.1,sample,29.10,"Beispieltext 95 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,3.1,sample,29.10,"Beispieltext 96 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,2.3,sample,29.10,"Beispieltext 97 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2019,Praktikant,Praktikant,Intern,4.1,sample,29.10,"Beispieltext 98 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2024,Angestellter,Angestellter,Employee,4.4,sample,29.10,"Beispieltext 99 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2016,Werkstudent,Werkstudent,Working Student,2.6,sample,29.10,"Beispieltext 100 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,4.6,sample,29.10,"Beispieltext 101 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2022,Angestellter,Angestellter,Employee,3.0,sample,29.10,"Beispieltext 102 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2022,Manager,Manager,Manager,4.6,sample,29.10,"Beispieltext 103 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,4.5,sample,29.10,"Beispieltext 104 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2022,Manager,Manager,Manager,3.2,sample,29.10,"Beispieltext 105 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,2.6,sample,29.10,"Beispieltext 106 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2024,Angestellter,Angestellter,Employee,2.6,sample,29.10,"Beispieltext 107 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,3.4,sample,29.10,"Beispieltext 108 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2020,Werkstudent,Werkstudent,Working Student,3.7,sample,29.10,"Beispieltext 109 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2018,Praktikant,Praktikant,Intern,3.4,sample,29.10,"Beispieltext 110 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2017,Praktikant,Praktikant,Intern,2.8,sample,29.10,"Beispieltext 111 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2016,Werkstudent,Werkstudent,Working Student,3.1,sample,29.10,"Beispieltext 112 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2015,Angestellter,Angestellter,Employee,4.6,sample,29.10,"Beispieltext 113 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2024,Angestellter,Angestellter,Employee,3.1,sample,29.10,"Beispieltext 114 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2018,Angestellter,Angestellter,Employee,2.9,sample,29.10,"Beispieltext 115 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2020,Praktikant,Praktikant,Intern,3.1,sample,29.10,"Beispieltext 116 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2020,Werkstudent,Werkstudent,Working Student,4.0,sample,29.10,"Beispieltext 117 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2023,Praktikant,Praktikant,Intern,4.4,sample,29.10,"Beispieltext 118 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2017,Praktikant,Praktikant,Intern,2.0,sample,29.10,"Beispieltext 119 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2021,Manager,Manager,Manager,3.7,sample,29.10,"Beispieltext 120 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2017,Angestellter,Angestellter,Employee,2.4,sample,29.10,"Beispieltext 121 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,3.7,sample,29.10,"Beispieltext 122 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,4.8,sample,29.10,"Beispieltext 123 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2019,Werkstudent,Werkstudent,Working Student,5.0,sample,29.10,"Beispieltext 124 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2021,Angestellter,Angestellter,Employee,4.5,sample,29.10,"Beispieltext 125 fuer Volkswagen.
+Zweite Zeile der Bewertung.",negative,Homeoffice,Homeoffice,Remote Work
+Volkswagen,2017,Werkstudent,Werkstudent,Working Student,3.6,sample,29.10,"Beispieltext 126 fuer Volkswagen.
+Zweite Zeile der Bewertung.",neutral,Flexibilität,Flexibilität,Flexibility
+Volkswagen,2019,Angestellter,Angestellter,Employee,2.7,sample,29.10,"Beispieltext 127 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitsbelastung,Arbeitsbelastung,Workload
+Volkswagen,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.8,sample,29.10,"Beispieltext 128 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours
+Volkswagen,2018,Angestellter,Angestellter,Employee,4.9,sample,29.10,"Beispieltext 129 fuer Volkswagen.
+Zweite Zeile der Bewertung.",positive,Arbeitszeiten,Arbeitszeiten,Working Hours

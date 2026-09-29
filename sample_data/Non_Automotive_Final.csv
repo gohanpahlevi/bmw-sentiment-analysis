@@ -1,241 +1,781 @@
 Company,Year,Role,Standardized Role (DE),Standardized Role (EN),Rating,Source,Review Text,Sentiment
-SAP,2024,Werkstudent,Werkstudent,Working Student,2.8,sample,"Beispieltext 0 fuer SAP.
+SAP,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,3.0,sample,"Beispieltext 0 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2017,Praktikant,Praktikant,Intern,2.8,sample,"Beispieltext 1 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2015,Werkstudent,Werkstudent,Working Student,4.8,sample,"Beispieltext 2 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2018,Werkstudent,Werkstudent,Working Student,4.6,sample,"Beispieltext 3 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2019,Werkstudent,Werkstudent,Working Student,2.6,sample,"Beispieltext 1 fuer SAP.
+SAP,2015,Manager,Manager,Manager,3.2,sample,"Beispieltext 4 fuer SAP.
 Zweite Zeile der Bewertung.",negative
-SAP,2018,Praktikant,Praktikant,Intern,2.7,sample,"Beispieltext 2 fuer SAP.
+SAP,2020,Angestellter,Angestellter,Employee,4.6,sample,"Beispieltext 5 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-SAP,2018,Werkstudent,Werkstudent,Working Student,3.0,sample,"Beispieltext 3 fuer SAP.
+SAP,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,3.0,sample,"Beispieltext 6 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2022,Manager,Manager,Manager,2.8,sample,"Beispieltext 7 fuer SAP.
 Zweite Zeile der Bewertung.",negative
-SAP,2018,Manager,Manager,Manager,3.5,sample,"Beispieltext 4 fuer SAP.
+SAP,2022,Angestellter,Angestellter,Employee,4.8,sample,"Beispieltext 8 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2024,Werkstudent,Werkstudent,Working Student,2.2,sample,"Beispieltext 9 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2024,Werkstudent,Werkstudent,Working Student,2.5,sample,"Beispieltext 10 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2015,Praktikant,Praktikant,Intern,2.4,sample,"Beispieltext 11 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2016,Werkstudent,Werkstudent,Working Student,3.3,sample,"Beispieltext 12 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2016,Praktikant,Praktikant,Intern,4.0,sample,"Beispieltext 5 fuer SAP.
+SAP,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,4.6,sample,"Beispieltext 13 fuer SAP.
 Zweite Zeile der Bewertung.",negative
-SAP,2015,Angestellter,Angestellter,Employee,3.4,sample,"Beispieltext 6 fuer SAP.
+SAP,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,3.7,sample,"Beispieltext 14 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,2.8,sample,"Beispieltext 15 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2022,Werkstudent,Werkstudent,Working Student,4.0,sample,"Beispieltext 16 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-SAP,2020,Praktikant,Praktikant,Intern,2.1,sample,"Beispieltext 7 fuer SAP.
+SAP,2023,Manager,Manager,Manager,3.7,sample,"Beispieltext 17 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,4.8,sample,"Beispieltext 18 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2017,Angestellter,Angestellter,Employee,3.7,sample,"Beispieltext 19 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2016,Werkstudent,Werkstudent,Working Student,2.2,sample,"Beispieltext 8 fuer SAP.
-Zweite Zeile der Bewertung.",positive
-SAP,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,4.8,sample,"Beispieltext 9 fuer SAP.
+SAP,2016,Werkstudent,Werkstudent,Working Student,2.5,sample,"Beispieltext 20 fuer SAP.
 Zweite Zeile der Bewertung.",negative
-SAP,2017,Werkstudent,Werkstudent,Working Student,3.3,sample,"Beispieltext 10 fuer SAP.
-Zweite Zeile der Bewertung.",negative
-SAP,2015,Werkstudent,Werkstudent,Working Student,2.3,sample,"Beispieltext 11 fuer SAP.
-Zweite Zeile der Bewertung.",negative
-SAP,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,3.0,sample,"Beispieltext 12 fuer SAP.
-Zweite Zeile der Bewertung.",negative
-SAP,2020,Angestellter,Angestellter,Employee,2.4,sample,"Beispieltext 13 fuer SAP.
+SAP,2018,Angestellter,Angestellter,Employee,4.8,sample,"Beispieltext 21 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2015,Praktikant,Praktikant,Intern,3.8,sample,"Beispieltext 14 fuer SAP.
+SAP,2024,Angestellter,Angestellter,Employee,2.2,sample,"Beispieltext 22 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,4.3,sample,"Beispieltext 23 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2019,Werkstudent,Werkstudent,Working Student,4.2,sample,"Beispieltext 24 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2017,Praktikant,Praktikant,Intern,3.6,sample,"Beispieltext 25 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2020,Praktikant,Praktikant,Intern,3.3,sample,"Beispieltext 26 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2022,Werkstudent,Werkstudent,Working Student,4.7,sample,"Beispieltext 27 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2021,Praktikant,Praktikant,Intern,3.0,sample,"Beispieltext 28 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2020,Praktikant,Praktikant,Intern,3.2,sample,"Beispieltext 15 fuer SAP.
+SAP,2015,Angestellter,Angestellter,Employee,2.2,sample,"Beispieltext 29 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-SAP,2024,Werkstudent,Werkstudent,Working Student,2.9,sample,"Beispieltext 16 fuer SAP.
-Zweite Zeile der Bewertung.",positive
-SAP,2022,Praktikant,Praktikant,Intern,3.6,sample,"Beispieltext 17 fuer SAP.
-Zweite Zeile der Bewertung.",positive
-SAP,2016,Angestellter,Angestellter,Employee,4.4,sample,"Beispieltext 18 fuer SAP.
+SAP,2021,Werkstudent,Werkstudent,Working Student,2.2,sample,"Beispieltext 30 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2024,Manager,Manager,Manager,4.7,sample,"Beispieltext 31 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,2.3,sample,"Beispieltext 19 fuer SAP.
-Zweite Zeile der Bewertung.",positive
-SAP,2019,Praktikant,Praktikant,Intern,3.2,sample,"Beispieltext 20 fuer SAP.
+SAP,2021,Praktikant,Praktikant,Intern,2.1,sample,"Beispieltext 32 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2015,Manager,Manager,Manager,2.7,sample,"Beispieltext 33 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2019,Werkstudent,Werkstudent,Working Student,3.3,sample,"Beispieltext 21 fuer SAP.
-Zweite Zeile der Bewertung.",negative
-SAP,2024,Angestellter,Angestellter,Employee,4.7,sample,"Beispieltext 22 fuer SAP.
+SAP,2020,Werkstudent,Werkstudent,Working Student,4.3,sample,"Beispieltext 34 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2019,Manager,Manager,Manager,2.6,sample,"Beispieltext 35 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2015,Manager,Manager,Manager,4.6,sample,"Beispieltext 23 fuer SAP.
+SAP,2024,Manager,Manager,Manager,4.6,sample,"Beispieltext 36 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2019,Werkstudent,Werkstudent,Working Student,2.8,sample,"Beispieltext 37 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2020,Manager,Manager,Manager,4.6,sample,"Beispieltext 38 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2018,Werkstudent,Werkstudent,Working Student,4.0,sample,"Beispieltext 39 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2024,Praktikant,Praktikant,Intern,3.7,sample,"Beispieltext 40 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2018,Werkstudent,Werkstudent,Working Student,3.2,sample,"Beispieltext 24 fuer SAP.
+SAP,2018,Werkstudent,Werkstudent,Working Student,2.1,sample,"Beispieltext 41 fuer SAP.
 Zweite Zeile der Bewertung.",negative
-SAP,2015,Manager,Manager,Manager,3.3,sample,"Beispieltext 25 fuer SAP.
+SAP,2022,Manager,Manager,Manager,4.6,sample,"Beispieltext 42 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-SAP,2016,Praktikant,Praktikant,Intern,4.5,sample,"Beispieltext 26 fuer SAP.
+SAP,2019,Angestellter,Angestellter,Employee,4.4,sample,"Beispieltext 43 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2017,Praktikant,Praktikant,Intern,4.7,sample,"Beispieltext 44 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2017,Werkstudent,Werkstudent,Working Student,2.3,sample,"Beispieltext 45 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2017,Manager,Manager,Manager,2.3,sample,"Beispieltext 46 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2020,Manager,Manager,Manager,3.4,sample,"Beispieltext 27 fuer SAP.
+SAP,2020,Manager,Manager,Manager,4.6,sample,"Beispieltext 47 fuer SAP.
 Zweite Zeile der Bewertung.",negative
-SAP,2015,Praktikant,Praktikant,Intern,2.2,sample,"Beispieltext 28 fuer SAP.
+SAP,2015,Praktikant,Praktikant,Intern,2.6,sample,"Beispieltext 48 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2015,Praktikant,Praktikant,Intern,3.5,sample,"Beispieltext 49 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-SAP,2021,Praktikant,Praktikant,Intern,2.3,sample,"Beispieltext 29 fuer SAP.
+SAP,2018,Manager,Manager,Manager,4.1,sample,"Beispieltext 50 fuer SAP.
 Zweite Zeile der Bewertung.",negative
-SAP,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,2.5,sample,"Beispieltext 30 fuer SAP.
+SAP,2015,Werkstudent,Werkstudent,Working Student,2.2,sample,"Beispieltext 51 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2016,Manager,Manager,Manager,4.9,sample,"Beispieltext 52 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2023,Angestellter,Angestellter,Employee,2.5,sample,"Beispieltext 53 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2017,Werkstudent,Werkstudent,Working Student,3.6,sample,"Beispieltext 31 fuer SAP.
+SAP,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,3.5,sample,"Beispieltext 54 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2016,Werkstudent,Werkstudent,Working Student,4.5,sample,"Beispieltext 55 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2016,Praktikant,Praktikant,Intern,4.6,sample,"Beispieltext 56 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2021,Angestellter,Angestellter,Employee,3.5,sample,"Beispieltext 32 fuer SAP.
+SAP,2018,Angestellter,Angestellter,Employee,2.8,sample,"Beispieltext 57 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2017,Werkstudent,Werkstudent,Working Student,2.8,sample,"Beispieltext 58 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-SAP,2017,Praktikant,Praktikant,Intern,4.5,sample,"Beispieltext 33 fuer SAP.
+SAP,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,2.1,sample,"Beispieltext 59 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2023,Werkstudent,Werkstudent,Working Student,2.0,sample,"Beispieltext 60 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2020,Angestellter,Angestellter,Employee,2.2,sample,"Beispieltext 34 fuer SAP.
+SAP,2015,Manager,Manager,Manager,3.6,sample,"Beispieltext 61 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2023,Manager,Manager,Manager,4.9,sample,"Beispieltext 62 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-SAP,2024,Manager,Manager,Manager,4.1,sample,"Beispieltext 35 fuer SAP.
-Zweite Zeile der Bewertung.",positive
-SAP,2018,Praktikant,Praktikant,Intern,3.9,sample,"Beispieltext 36 fuer SAP.
-Zweite Zeile der Bewertung.",negative
-SAP,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.5,sample,"Beispieltext 37 fuer SAP.
-Zweite Zeile der Bewertung.",positive
-SAP,2021,Praktikant,Praktikant,Intern,4.8,sample,"Beispieltext 38 fuer SAP.
-Zweite Zeile der Bewertung.",positive
-SAP,2020,Praktikant,Praktikant,Intern,2.4,sample,"Beispieltext 39 fuer SAP.
+SAP,2019,Manager,Manager,Manager,3.0,sample,"Beispieltext 63 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Bosch,2018,Praktikant,Praktikant,Intern,2.1,sample,"Beispieltext 0 fuer Bosch.
-Zweite Zeile der Bewertung.",negative
-Bosch,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,4.0,sample,"Beispieltext 1 fuer Bosch.
-Zweite Zeile der Bewertung.",negative
-Bosch,2021,Werkstudent,Werkstudent,Working Student,3.8,sample,"Beispieltext 2 fuer Bosch.
-Zweite Zeile der Bewertung.",positive
-Bosch,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,3.9,sample,"Beispieltext 3 fuer Bosch.
-Zweite Zeile der Bewertung.",negative
-Bosch,2018,Werkstudent,Werkstudent,Working Student,3.3,sample,"Beispieltext 4 fuer Bosch.
-Zweite Zeile der Bewertung.",negative
-Bosch,2023,Werkstudent,Werkstudent,Working Student,3.3,sample,"Beispieltext 5 fuer Bosch.
+SAP,2021,Praktikant,Praktikant,Intern,3.2,sample,"Beispieltext 64 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Bosch,2024,Angestellter,Angestellter,Employee,5.0,sample,"Beispieltext 6 fuer Bosch.
-Zweite Zeile der Bewertung.",positive
-Bosch,2022,Manager,Manager,Manager,4.3,sample,"Beispieltext 7 fuer Bosch.
-Zweite Zeile der Bewertung.",positive
-Bosch,2022,Manager,Manager,Manager,3.2,sample,"Beispieltext 8 fuer Bosch.
-Zweite Zeile der Bewertung.",positive
-Bosch,2020,Angestellter,Angestellter,Employee,3.3,sample,"Beispieltext 9 fuer Bosch.
-Zweite Zeile der Bewertung.",positive
-Bosch,2023,Angestellter,Angestellter,Employee,3.5,sample,"Beispieltext 10 fuer Bosch.
+SAP,2021,Praktikant,Praktikant,Intern,4.7,sample,"Beispieltext 65 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Bosch,2017,Angestellter,Angestellter,Employee,2.2,sample,"Beispieltext 11 fuer Bosch.
+SAP,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,3.5,sample,"Beispieltext 66 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-Bosch,2023,Werkstudent,Werkstudent,Working Student,2.2,sample,"Beispieltext 12 fuer Bosch.
+SAP,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,4.2,sample,"Beispieltext 67 fuer SAP.
 Zweite Zeile der Bewertung.",negative
-Bosch,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,2.1,sample,"Beispieltext 13 fuer Bosch.
+SAP,2018,Angestellter,Angestellter,Employee,2.3,sample,"Beispieltext 68 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2024,Angestellter,Angestellter,Employee,3.2,sample,"Beispieltext 69 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2023,Manager,Manager,Manager,3.6,sample,"Beispieltext 70 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Bosch,2016,Angestellter,Angestellter,Employee,2.6,sample,"Beispieltext 14 fuer Bosch.
-Zweite Zeile der Bewertung.",negative
-Bosch,2017,Manager,Manager,Manager,4.1,sample,"Beispieltext 15 fuer Bosch.
+SAP,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,2.0,sample,"Beispieltext 71 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Bosch,2020,Praktikant,Praktikant,Intern,3.8,sample,"Beispieltext 16 fuer Bosch.
+SAP,2022,Werkstudent,Werkstudent,Working Student,3.8,sample,"Beispieltext 72 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2021,Manager,Manager,Manager,3.1,sample,"Beispieltext 73 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-Bosch,2020,Werkstudent,Werkstudent,Working Student,4.7,sample,"Beispieltext 17 fuer Bosch.
-Zweite Zeile der Bewertung.",positive
-Bosch,2017,Werkstudent,Werkstudent,Working Student,2.8,sample,"Beispieltext 18 fuer Bosch.
+SAP,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,2.8,sample,"Beispieltext 74 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Bosch,2024,Manager,Manager,Manager,2.8,sample,"Beispieltext 19 fuer Bosch.
+SAP,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,4.0,sample,"Beispieltext 75 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-Bosch,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,3.1,sample,"Beispieltext 20 fuer Bosch.
-Zweite Zeile der Bewertung.",positive
-Bosch,2021,Praktikant,Praktikant,Intern,2.5,sample,"Beispieltext 21 fuer Bosch.
-Zweite Zeile der Bewertung.",positive
-Bosch,2020,Werkstudent,Werkstudent,Working Student,4.7,sample,"Beispieltext 22 fuer Bosch.
-Zweite Zeile der Bewertung.",negative
-Bosch,2016,Praktikant,Praktikant,Intern,4.3,sample,"Beispieltext 23 fuer Bosch.
+SAP,2024,Werkstudent,Werkstudent,Working Student,4.7,sample,"Beispieltext 76 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Bosch,2020,Angestellter,Angestellter,Employee,4.9,sample,"Beispieltext 24 fuer Bosch.
+SAP,2022,Werkstudent,Werkstudent,Working Student,3.6,sample,"Beispieltext 77 fuer SAP.
 Zweite Zeile der Bewertung.",negative
-Bosch,2023,Manager,Manager,Manager,3.7,sample,"Beispieltext 25 fuer Bosch.
+SAP,2022,Praktikant,Praktikant,Intern,5.0,sample,"Beispieltext 78 fuer SAP.
 Zweite Zeile der Bewertung.",negative
-Bosch,2023,Angestellter,Angestellter,Employee,3.9,sample,"Beispieltext 26 fuer Bosch.
+SAP,2016,Werkstudent,Werkstudent,Working Student,3.6,sample,"Beispieltext 79 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2023,Werkstudent,Werkstudent,Working Student,2.7,sample,"Beispieltext 80 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2017,Manager,Manager,Manager,2.5,sample,"Beispieltext 81 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2015,Manager,Manager,Manager,3.1,sample,"Beispieltext 82 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Bosch,2020,Manager,Manager,Manager,2.8,sample,"Beispieltext 27 fuer Bosch.
-Zweite Zeile der Bewertung.",negative
-Bosch,2017,Werkstudent,Werkstudent,Working Student,3.1,sample,"Beispieltext 28 fuer Bosch.
-Zweite Zeile der Bewertung.",negative
-Bosch,2018,Angestellter,Angestellter,Employee,2.5,sample,"Beispieltext 29 fuer Bosch.
+SAP,2021,Manager,Manager,Manager,2.5,sample,"Beispieltext 83 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2019,Angestellter,Angestellter,Employee,3.1,sample,"Beispieltext 84 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Bosch,2023,Angestellter,Angestellter,Employee,2.8,sample,"Beispieltext 30 fuer Bosch.
+SAP,2023,Werkstudent,Werkstudent,Working Student,3.4,sample,"Beispieltext 85 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2016,Manager,Manager,Manager,2.9,sample,"Beispieltext 86 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Bosch,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,4.2,sample,"Beispieltext 31 fuer Bosch.
+SAP,2022,Angestellter,Angestellter,Employee,3.3,sample,"Beispieltext 87 fuer SAP.
 Zweite Zeile der Bewertung.",negative
-Bosch,2017,Angestellter,Angestellter,Employee,2.9,sample,"Beispieltext 32 fuer Bosch.
+SAP,2022,Praktikant,Praktikant,Intern,4.3,sample,"Beispieltext 88 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2017,Praktikant,Praktikant,Intern,3.1,sample,"Beispieltext 89 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-Bosch,2023,Manager,Manager,Manager,3.1,sample,"Beispieltext 33 fuer Bosch.
+SAP,2023,Praktikant,Praktikant,Intern,3.9,sample,"Beispieltext 90 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2023,Manager,Manager,Manager,2.8,sample,"Beispieltext 91 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Bosch,2022,Angestellter,Angestellter,Employee,2.7,sample,"Beispieltext 34 fuer Bosch.
+SAP,2023,Angestellter,Angestellter,Employee,3.7,sample,"Beispieltext 92 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-Bosch,2015,Angestellter,Angestellter,Employee,2.0,sample,"Beispieltext 35 fuer Bosch.
-Zweite Zeile der Bewertung.",positive
-Bosch,2016,Werkstudent,Werkstudent,Working Student,3.6,sample,"Beispieltext 36 fuer Bosch.
+SAP,2015,Praktikant,Praktikant,Intern,2.9,sample,"Beispieltext 93 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2023,Werkstudent,Werkstudent,Working Student,2.8,sample,"Beispieltext 94 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Bosch,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,3.8,sample,"Beispieltext 37 fuer Bosch.
-Zweite Zeile der Bewertung.",positive
-Bosch,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,3.1,sample,"Beispieltext 38 fuer Bosch.
-Zweite Zeile der Bewertung.",positive
-Bosch,2017,Manager,Manager,Manager,2.0,sample,"Beispieltext 39 fuer Bosch.
-Zweite Zeile der Bewertung.",positive
-Siemens,2017,Praktikant,Praktikant,Intern,3.4,sample,"Beispieltext 0 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2017,Angestellter,Angestellter,Employee,4.6,sample,"Beispieltext 1 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2019,Werkstudent,Werkstudent,Working Student,4.9,sample,"Beispieltext 2 fuer Siemens.
+SAP,2019,Angestellter,Angestellter,Employee,3.6,sample,"Beispieltext 95 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Siemens,2023,Angestellter,Angestellter,Employee,4.7,sample,"Beispieltext 3 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,3.3,sample,"Beispieltext 4 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.7,sample,"Beispieltext 5 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2015,Angestellter,Angestellter,Employee,3.6,sample,"Beispieltext 6 fuer Siemens.
+SAP,2022,Praktikant,Praktikant,Intern,2.4,sample,"Beispieltext 96 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-Siemens,2018,Manager,Manager,Manager,2.5,sample,"Beispieltext 7 fuer Siemens.
-Zweite Zeile der Bewertung.",positive
-Siemens,2024,Angestellter,Angestellter,Employee,3.7,sample,"Beispieltext 8 fuer Siemens.
-Zweite Zeile der Bewertung.",positive
-Siemens,2021,Praktikant,Praktikant,Intern,2.6,sample,"Beispieltext 9 fuer Siemens.
-Zweite Zeile der Bewertung.",positive
-Siemens,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,3.9,sample,"Beispieltext 10 fuer Siemens.
+SAP,2019,Werkstudent,Werkstudent,Working Student,4.8,sample,"Beispieltext 97 fuer SAP.
 Zweite Zeile der Bewertung.",negative
-Siemens,2017,Manager,Manager,Manager,3.5,sample,"Beispieltext 11 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2015,Angestellter,Angestellter,Employee,5.0,sample,"Beispieltext 12 fuer Siemens.
+SAP,2022,Werkstudent,Werkstudent,Working Student,2.1,sample,"Beispieltext 98 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Siemens,2023,Manager,Manager,Manager,2.0,sample,"Beispieltext 13 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2022,Manager,Manager,Manager,2.2,sample,"Beispieltext 14 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2018,Manager,Manager,Manager,5.0,sample,"Beispieltext 15 fuer Siemens.
-Zweite Zeile der Bewertung.",positive
-Siemens,2015,Werkstudent,Werkstudent,Working Student,2.4,sample,"Beispieltext 16 fuer Siemens.
-Zweite Zeile der Bewertung.",positive
-Siemens,2015,Werkstudent,Werkstudent,Working Student,2.8,sample,"Beispieltext 17 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,4.1,sample,"Beispieltext 18 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,3.9,sample,"Beispieltext 19 fuer Siemens.
+SAP,2019,Manager,Manager,Manager,3.9,sample,"Beispieltext 99 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Siemens,2023,Praktikant,Praktikant,Intern,2.0,sample,"Beispieltext 20 fuer Siemens.
-Zweite Zeile der Bewertung.",positive
-Siemens,2018,Werkstudent,Werkstudent,Working Student,4.8,sample,"Beispieltext 21 fuer Siemens.
-Zweite Zeile der Bewertung.",positive
-Siemens,2021,Werkstudent,Werkstudent,Working Student,3.0,sample,"Beispieltext 22 fuer Siemens.
-Zweite Zeile der Bewertung.",positive
-Siemens,2023,Praktikant,Praktikant,Intern,3.4,sample,"Beispieltext 23 fuer Siemens.
+SAP,2019,Praktikant,Praktikant,Intern,3.2,sample,"Beispieltext 100 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Siemens,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,4.6,sample,"Beispieltext 24 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2018,Manager,Manager,Manager,3.7,sample,"Beispieltext 25 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2021,Werkstudent,Werkstudent,Working Student,3.9,sample,"Beispieltext 26 fuer Siemens.
+SAP,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,2.6,sample,"Beispieltext 101 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-Siemens,2017,Angestellter,Angestellter,Employee,2.4,sample,"Beispieltext 27 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2016,Angestellter,Angestellter,Employee,3.9,sample,"Beispieltext 28 fuer Siemens.
-Zweite Zeile der Bewertung.",positive
-Siemens,2017,Praktikant,Praktikant,Intern,4.1,sample,"Beispieltext 29 fuer Siemens.
+SAP,2024,Angestellter,Angestellter,Employee,4.0,sample,"Beispieltext 102 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Siemens,2017,Angestellter,Angestellter,Employee,4.1,sample,"Beispieltext 30 fuer Siemens.
+SAP,2020,Angestellter,Angestellter,Employee,4.3,sample,"Beispieltext 103 fuer SAP.
 Zweite Zeile der Bewertung.",positive
-Siemens,2016,Angestellter,Angestellter,Employee,4.2,sample,"Beispieltext 31 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2020,Angestellter,Angestellter,Employee,2.6,sample,"Beispieltext 32 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,4.6,sample,"Beispieltext 33 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2018,Manager,Manager,Manager,2.6,sample,"Beispieltext 34 fuer Siemens.
-Zweite Zeile der Bewertung.",positive
-Siemens,2015,Angestellter,Angestellter,Employee,4.8,sample,"Beispieltext 35 fuer Siemens.
-Zweite Zeile der Bewertung.",positive
-Siemens,2019,Angestellter,Angestellter,Employee,3.4,sample,"Beispieltext 36 fuer Siemens.
-Zweite Zeile der Bewertung.",negative
-Siemens,2018,Praktikant,Praktikant,Intern,2.9,sample,"Beispieltext 37 fuer Siemens.
-Zweite Zeile der Bewertung.",positive
-Siemens,2019,Werkstudent,Werkstudent,Working Student,2.1,sample,"Beispieltext 38 fuer Siemens.
+SAP,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,3.2,sample,"Beispieltext 104 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
-Siemens,2015,Werkstudent,Werkstudent,Working Student,4.1,sample,"Beispieltext 39 fuer Siemens.
+SAP,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,3.7,sample,"Beispieltext 105 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2022,Manager,Manager,Manager,3.2,sample,"Beispieltext 106 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2022,Angestellter,Angestellter,Employee,3.3,sample,"Beispieltext 107 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,4.3,sample,"Beispieltext 108 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2015,Praktikant,Praktikant,Intern,4.2,sample,"Beispieltext 109 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2021,Angestellter,Angestellter,Employee,4.8,sample,"Beispieltext 110 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2019,Werkstudent,Werkstudent,Working Student,4.3,sample,"Beispieltext 111 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2022,Angestellter,Angestellter,Employee,2.7,sample,"Beispieltext 112 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2016,Angestellter,Angestellter,Employee,2.3,sample,"Beispieltext 113 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,3.4,sample,"Beispieltext 114 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2018,Werkstudent,Werkstudent,Working Student,3.4,sample,"Beispieltext 115 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2015,Manager,Manager,Manager,4.5,sample,"Beispieltext 116 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2017,Angestellter,Angestellter,Employee,4.6,sample,"Beispieltext 117 fuer SAP.
 Zweite Zeile der Bewertung.",neutral
+SAP,2017,Werkstudent,Werkstudent,Working Student,2.6,sample,"Beispieltext 118 fuer SAP.
+Zweite Zeile der Bewertung.",neutral
+SAP,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,2.8,sample,"Beispieltext 119 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2019,Werkstudent,Werkstudent,Working Student,3.2,sample,"Beispieltext 120 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2019,Manager,Manager,Manager,3.5,sample,"Beispieltext 121 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2021,Angestellter,Angestellter,Employee,2.9,sample,"Beispieltext 122 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2018,Manager,Manager,Manager,4.6,sample,"Beispieltext 123 fuer SAP.
+Zweite Zeile der Bewertung.",neutral
+SAP,2019,Praktikant,Praktikant,Intern,2.4,sample,"Beispieltext 124 fuer SAP.
+Zweite Zeile der Bewertung.",neutral
+SAP,2018,Werkstudent,Werkstudent,Working Student,4.8,sample,"Beispieltext 125 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.4,sample,"Beispieltext 126 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2020,Manager,Manager,Manager,4.8,sample,"Beispieltext 127 fuer SAP.
+Zweite Zeile der Bewertung.",positive
+SAP,2023,Angestellter,Angestellter,Employee,4.2,sample,"Beispieltext 128 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+SAP,2015,Angestellter,Angestellter,Employee,3.2,sample,"Beispieltext 129 fuer SAP.
+Zweite Zeile der Bewertung.",negative
+Bosch,2024,Angestellter,Angestellter,Employee,2.8,sample,"Beispieltext 0 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2022,Praktikant,Praktikant,Intern,4.1,sample,"Beispieltext 1 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2024,Manager,Manager,Manager,3.2,sample,"Beispieltext 2 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2022,Praktikant,Praktikant,Intern,2.2,sample,"Beispieltext 3 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2021,Angestellter,Angestellter,Employee,2.1,sample,"Beispieltext 4 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2016,Manager,Manager,Manager,2.5,sample,"Beispieltext 5 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2023,Praktikant,Praktikant,Intern,3.5,sample,"Beispieltext 6 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,4.5,sample,"Beispieltext 7 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2017,Praktikant,Praktikant,Intern,3.5,sample,"Beispieltext 8 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2022,Praktikant,Praktikant,Intern,4.4,sample,"Beispieltext 9 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2015,Praktikant,Praktikant,Intern,4.0,sample,"Beispieltext 10 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2019,Manager,Manager,Manager,4.1,sample,"Beispieltext 11 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2017,Praktikant,Praktikant,Intern,2.1,sample,"Beispieltext 12 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2022,Praktikant,Praktikant,Intern,4.6,sample,"Beispieltext 13 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,4.2,sample,"Beispieltext 14 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2019,Werkstudent,Werkstudent,Working Student,3.6,sample,"Beispieltext 15 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2018,Praktikant,Praktikant,Intern,3.2,sample,"Beispieltext 16 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2015,Manager,Manager,Manager,2.5,sample,"Beispieltext 17 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,4.1,sample,"Beispieltext 18 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2018,Praktikant,Praktikant,Intern,4.2,sample,"Beispieltext 19 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2021,Manager,Manager,Manager,2.3,sample,"Beispieltext 20 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2020,Praktikant,Praktikant,Intern,5.0,sample,"Beispieltext 21 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2023,Angestellter,Angestellter,Employee,2.9,sample,"Beispieltext 22 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2020,Manager,Manager,Manager,4.7,sample,"Beispieltext 23 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2016,Manager,Manager,Manager,2.8,sample,"Beispieltext 24 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,3.6,sample,"Beispieltext 25 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2016,Praktikant,Praktikant,Intern,3.4,sample,"Beispieltext 26 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2018,Werkstudent,Werkstudent,Working Student,2.1,sample,"Beispieltext 27 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2024,Angestellter,Angestellter,Employee,3.0,sample,"Beispieltext 28 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2017,Werkstudent,Werkstudent,Working Student,2.2,sample,"Beispieltext 29 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2020,Manager,Manager,Manager,3.4,sample,"Beispieltext 30 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2020,Werkstudent,Werkstudent,Working Student,2.5,sample,"Beispieltext 31 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,3.4,sample,"Beispieltext 32 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2023,Praktikant,Praktikant,Intern,3.8,sample,"Beispieltext 33 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2022,Angestellter,Angestellter,Employee,2.1,sample,"Beispieltext 34 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2024,Manager,Manager,Manager,3.9,sample,"Beispieltext 35 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,4.5,sample,"Beispieltext 36 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2016,Praktikant,Praktikant,Intern,3.1,sample,"Beispieltext 37 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2016,Angestellter,Angestellter,Employee,4.5,sample,"Beispieltext 38 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2022,Praktikant,Praktikant,Intern,2.8,sample,"Beispieltext 39 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2016,Angestellter,Angestellter,Employee,2.5,sample,"Beispieltext 40 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2019,Ex-Angestellter,Ex-Angestellter,Former Employee,2.4,sample,"Beispieltext 41 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2022,Praktikant,Praktikant,Intern,3.7,sample,"Beispieltext 42 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2015,Werkstudent,Werkstudent,Working Student,3.1,sample,"Beispieltext 43 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2018,Manager,Manager,Manager,3.7,sample,"Beispieltext 44 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,3.5,sample,"Beispieltext 45 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2016,Angestellter,Angestellter,Employee,4.8,sample,"Beispieltext 46 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,2.6,sample,"Beispieltext 47 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2018,Praktikant,Praktikant,Intern,2.5,sample,"Beispieltext 48 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2019,Manager,Manager,Manager,3.2,sample,"Beispieltext 49 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2023,Werkstudent,Werkstudent,Working Student,3.7,sample,"Beispieltext 50 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,2.7,sample,"Beispieltext 51 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,4.1,sample,"Beispieltext 52 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2015,Angestellter,Angestellter,Employee,3.8,sample,"Beispieltext 53 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2016,Praktikant,Praktikant,Intern,3.9,sample,"Beispieltext 54 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2017,Werkstudent,Werkstudent,Working Student,2.3,sample,"Beispieltext 55 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2022,Praktikant,Praktikant,Intern,2.0,sample,"Beispieltext 56 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2021,Angestellter,Angestellter,Employee,2.3,sample,"Beispieltext 57 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,4.0,sample,"Beispieltext 58 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2017,Praktikant,Praktikant,Intern,2.6,sample,"Beispieltext 59 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2018,Werkstudent,Werkstudent,Working Student,4.1,sample,"Beispieltext 60 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2016,Manager,Manager,Manager,2.1,sample,"Beispieltext 61 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2023,Angestellter,Angestellter,Employee,4.3,sample,"Beispieltext 62 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2016,Angestellter,Angestellter,Employee,4.5,sample,"Beispieltext 63 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2021,Werkstudent,Werkstudent,Working Student,3.7,sample,"Beispieltext 64 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2022,Manager,Manager,Manager,2.4,sample,"Beispieltext 65 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2019,Manager,Manager,Manager,4.5,sample,"Beispieltext 66 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2024,Manager,Manager,Manager,3.2,sample,"Beispieltext 67 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,3.6,sample,"Beispieltext 68 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2016,Werkstudent,Werkstudent,Working Student,4.3,sample,"Beispieltext 69 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2018,Praktikant,Praktikant,Intern,3.8,sample,"Beispieltext 70 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2023,Manager,Manager,Manager,3.7,sample,"Beispieltext 71 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2015,Manager,Manager,Manager,4.4,sample,"Beispieltext 72 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2020,Manager,Manager,Manager,4.8,sample,"Beispieltext 73 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2018,Werkstudent,Werkstudent,Working Student,4.0,sample,"Beispieltext 74 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2021,Angestellter,Angestellter,Employee,2.9,sample,"Beispieltext 75 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2024,Angestellter,Angestellter,Employee,4.6,sample,"Beispieltext 76 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2022,Manager,Manager,Manager,3.8,sample,"Beispieltext 77 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2022,Werkstudent,Werkstudent,Working Student,3.6,sample,"Beispieltext 78 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2016,Manager,Manager,Manager,4.5,sample,"Beispieltext 79 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2024,Werkstudent,Werkstudent,Working Student,3.0,sample,"Beispieltext 80 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2019,Manager,Manager,Manager,3.2,sample,"Beispieltext 81 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2023,Angestellter,Angestellter,Employee,2.6,sample,"Beispieltext 82 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2015,Praktikant,Praktikant,Intern,3.2,sample,"Beispieltext 83 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2020,Werkstudent,Werkstudent,Working Student,2.5,sample,"Beispieltext 84 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2020,Manager,Manager,Manager,2.9,sample,"Beispieltext 85 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,2.6,sample,"Beispieltext 86 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,2.0,sample,"Beispieltext 87 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2017,Praktikant,Praktikant,Intern,3.4,sample,"Beispieltext 88 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2019,Werkstudent,Werkstudent,Working Student,4.0,sample,"Beispieltext 89 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,4.0,sample,"Beispieltext 90 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2017,Manager,Manager,Manager,2.2,sample,"Beispieltext 91 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2024,Manager,Manager,Manager,2.8,sample,"Beispieltext 92 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2019,Werkstudent,Werkstudent,Working Student,4.0,sample,"Beispieltext 93 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2021,Angestellter,Angestellter,Employee,4.7,sample,"Beispieltext 94 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2022,Werkstudent,Werkstudent,Working Student,4.1,sample,"Beispieltext 95 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2015,Angestellter,Angestellter,Employee,3.7,sample,"Beispieltext 96 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,4.7,sample,"Beispieltext 97 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2024,Manager,Manager,Manager,2.1,sample,"Beispieltext 98 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2020,Praktikant,Praktikant,Intern,2.0,sample,"Beispieltext 99 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2019,Praktikant,Praktikant,Intern,3.8,sample,"Beispieltext 100 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2024,Angestellter,Angestellter,Employee,5.0,sample,"Beispieltext 101 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,3.9,sample,"Beispieltext 102 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2019,Praktikant,Praktikant,Intern,2.9,sample,"Beispieltext 103 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2023,Manager,Manager,Manager,3.6,sample,"Beispieltext 104 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2021,Angestellter,Angestellter,Employee,4.4,sample,"Beispieltext 105 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2021,Werkstudent,Werkstudent,Working Student,4.1,sample,"Beispieltext 106 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2019,Praktikant,Praktikant,Intern,4.5,sample,"Beispieltext 107 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,3.0,sample,"Beispieltext 108 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,4.4,sample,"Beispieltext 109 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2015,Werkstudent,Werkstudent,Working Student,4.2,sample,"Beispieltext 110 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2017,Werkstudent,Werkstudent,Working Student,4.7,sample,"Beispieltext 111 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2024,Manager,Manager,Manager,4.3,sample,"Beispieltext 112 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2020,Praktikant,Praktikant,Intern,2.8,sample,"Beispieltext 113 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,3.0,sample,"Beispieltext 114 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2022,Angestellter,Angestellter,Employee,4.0,sample,"Beispieltext 115 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2020,Werkstudent,Werkstudent,Working Student,3.2,sample,"Beispieltext 116 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2022,Angestellter,Angestellter,Employee,2.6,sample,"Beispieltext 117 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,4.5,sample,"Beispieltext 118 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2017,Angestellter,Angestellter,Employee,2.5,sample,"Beispieltext 119 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,4.5,sample,"Beispieltext 120 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2021,Werkstudent,Werkstudent,Working Student,3.2,sample,"Beispieltext 121 fuer Bosch.
+Zweite Zeile der Bewertung.",positive
+Bosch,2021,Werkstudent,Werkstudent,Working Student,4.6,sample,"Beispieltext 122 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2016,Manager,Manager,Manager,4.3,sample,"Beispieltext 123 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,2.9,sample,"Beispieltext 124 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2024,Werkstudent,Werkstudent,Working Student,4.9,sample,"Beispieltext 125 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Bosch,2016,Angestellter,Angestellter,Employee,4.3,sample,"Beispieltext 126 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2021,Angestellter,Angestellter,Employee,4.8,sample,"Beispieltext 127 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2017,Praktikant,Praktikant,Intern,4.9,sample,"Beispieltext 128 fuer Bosch.
+Zweite Zeile der Bewertung.",negative
+Bosch,2016,Manager,Manager,Manager,4.5,sample,"Beispieltext 129 fuer Bosch.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2020,Manager,Manager,Manager,3.5,sample,"Beispieltext 0 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2020,Praktikant,Praktikant,Intern,4.1,sample,"Beispieltext 1 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,3.2,sample,"Beispieltext 2 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2019,Praktikant,Praktikant,Intern,3.0,sample,"Beispieltext 3 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2016,Angestellter,Angestellter,Employee,3.5,sample,"Beispieltext 4 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2024,Praktikant,Praktikant,Intern,3.7,sample,"Beispieltext 5 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,4.2,sample,"Beispieltext 6 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2017,Praktikant,Praktikant,Intern,4.0,sample,"Beispieltext 7 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2018,Angestellter,Angestellter,Employee,4.7,sample,"Beispieltext 8 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2015,Manager,Manager,Manager,4.6,sample,"Beispieltext 9 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2017,Manager,Manager,Manager,3.8,sample,"Beispieltext 10 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2019,Angestellter,Angestellter,Employee,4.3,sample,"Beispieltext 11 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2024,Werkstudent,Werkstudent,Working Student,3.8,sample,"Beispieltext 12 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2018,Angestellter,Angestellter,Employee,3.1,sample,"Beispieltext 13 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2024,Werkstudent,Werkstudent,Working Student,2.1,sample,"Beispieltext 14 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2023,Angestellter,Angestellter,Employee,4.5,sample,"Beispieltext 15 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2020,Angestellter,Angestellter,Employee,3.4,sample,"Beispieltext 16 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2017,Werkstudent,Werkstudent,Working Student,3.5,sample,"Beispieltext 17 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,3.8,sample,"Beispieltext 18 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,4.5,sample,"Beispieltext 19 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2016,Praktikant,Praktikant,Intern,2.9,sample,"Beispieltext 20 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,3.7,sample,"Beispieltext 21 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2018,Praktikant,Praktikant,Intern,2.8,sample,"Beispieltext 22 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2024,Angestellter,Angestellter,Employee,2.7,sample,"Beispieltext 23 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,2.8,sample,"Beispieltext 24 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2020,Werkstudent,Werkstudent,Working Student,4.2,sample,"Beispieltext 25 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2024,Manager,Manager,Manager,3.2,sample,"Beispieltext 26 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2024,Praktikant,Praktikant,Intern,4.0,sample,"Beispieltext 27 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,3.0,sample,"Beispieltext 28 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2019,Manager,Manager,Manager,3.7,sample,"Beispieltext 29 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,3.4,sample,"Beispieltext 30 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2020,Praktikant,Praktikant,Intern,2.3,sample,"Beispieltext 31 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2017,Praktikant,Praktikant,Intern,2.2,sample,"Beispieltext 32 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2023,Manager,Manager,Manager,4.3,sample,"Beispieltext 33 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2018,Praktikant,Praktikant,Intern,3.7,sample,"Beispieltext 34 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2019,Angestellter,Angestellter,Employee,4.8,sample,"Beispieltext 35 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2024,Angestellter,Angestellter,Employee,2.2,sample,"Beispieltext 36 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2018,Angestellter,Angestellter,Employee,4.5,sample,"Beispieltext 37 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,3.1,sample,"Beispieltext 38 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2017,Werkstudent,Werkstudent,Working Student,5.0,sample,"Beispieltext 39 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2019,Angestellter,Angestellter,Employee,4.2,sample,"Beispieltext 40 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2020,Angestellter,Angestellter,Employee,4.4,sample,"Beispieltext 41 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2022,Werkstudent,Werkstudent,Working Student,2.3,sample,"Beispieltext 42 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2017,Manager,Manager,Manager,3.5,sample,"Beispieltext 43 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2016,Werkstudent,Werkstudent,Working Student,3.4,sample,"Beispieltext 44 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2017,Ex-Angestellter,Ex-Angestellter,Former Employee,3.7,sample,"Beispieltext 45 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2023,Praktikant,Praktikant,Intern,3.1,sample,"Beispieltext 46 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2015,Werkstudent,Werkstudent,Working Student,4.8,sample,"Beispieltext 47 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2023,Manager,Manager,Manager,2.5,sample,"Beispieltext 48 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2021,Praktikant,Praktikant,Intern,2.0,sample,"Beispieltext 49 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2018,Ex-Angestellter,Ex-Angestellter,Former Employee,3.6,sample,"Beispieltext 50 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2015,Angestellter,Angestellter,Employee,3.4,sample,"Beispieltext 51 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,3.6,sample,"Beispieltext 52 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2016,Werkstudent,Werkstudent,Working Student,3.9,sample,"Beispieltext 53 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2022,Praktikant,Praktikant,Intern,2.0,sample,"Beispieltext 54 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2018,Manager,Manager,Manager,4.6,sample,"Beispieltext 55 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2016,Praktikant,Praktikant,Intern,4.8,sample,"Beispieltext 56 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,3.8,sample,"Beispieltext 57 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2022,Ex-Angestellter,Ex-Angestellter,Former Employee,4.2,sample,"Beispieltext 58 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2015,Praktikant,Praktikant,Intern,3.2,sample,"Beispieltext 59 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2018,Manager,Manager,Manager,4.1,sample,"Beispieltext 60 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2022,Praktikant,Praktikant,Intern,2.4,sample,"Beispieltext 61 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2022,Manager,Manager,Manager,2.2,sample,"Beispieltext 62 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2018,Angestellter,Angestellter,Employee,3.2,sample,"Beispieltext 63 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2018,Angestellter,Angestellter,Employee,2.7,sample,"Beispieltext 64 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2018,Angestellter,Angestellter,Employee,3.4,sample,"Beispieltext 65 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2021,Praktikant,Praktikant,Intern,4.3,sample,"Beispieltext 66 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2015,Ex-Angestellter,Ex-Angestellter,Former Employee,4.8,sample,"Beispieltext 67 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2019,Praktikant,Praktikant,Intern,3.4,sample,"Beispieltext 68 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2022,Angestellter,Angestellter,Employee,2.6,sample,"Beispieltext 69 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,3.5,sample,"Beispieltext 70 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2016,Manager,Manager,Manager,4.7,sample,"Beispieltext 71 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2015,Angestellter,Angestellter,Employee,3.7,sample,"Beispieltext 72 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2016,Ex-Angestellter,Ex-Angestellter,Former Employee,3.9,sample,"Beispieltext 73 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2024,Angestellter,Angestellter,Employee,4.1,sample,"Beispieltext 74 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2023,Werkstudent,Werkstudent,Working Student,3.4,sample,"Beispieltext 75 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2015,Praktikant,Praktikant,Intern,2.1,sample,"Beispieltext 76 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2023,Praktikant,Praktikant,Intern,2.4,sample,"Beispieltext 77 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2018,Manager,Manager,Manager,4.9,sample,"Beispieltext 78 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,3.6,sample,"Beispieltext 79 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2016,Praktikant,Praktikant,Intern,4.5,sample,"Beispieltext 80 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2016,Werkstudent,Werkstudent,Working Student,2.8,sample,"Beispieltext 81 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2019,Praktikant,Praktikant,Intern,3.5,sample,"Beispieltext 82 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2024,Praktikant,Praktikant,Intern,2.0,sample,"Beispieltext 83 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2016,Angestellter,Angestellter,Employee,4.0,sample,"Beispieltext 84 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,3.2,sample,"Beispieltext 85 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2021,Ex-Angestellter,Ex-Angestellter,Former Employee,3.9,sample,"Beispieltext 86 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2016,Angestellter,Angestellter,Employee,4.2,sample,"Beispieltext 87 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2015,Praktikant,Praktikant,Intern,4.5,sample,"Beispieltext 88 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2021,Praktikant,Praktikant,Intern,3.9,sample,"Beispieltext 89 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2019,Werkstudent,Werkstudent,Working Student,4.1,sample,"Beispieltext 90 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2019,Werkstudent,Werkstudent,Working Student,2.1,sample,"Beispieltext 91 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2021,Praktikant,Praktikant,Intern,3.3,sample,"Beispieltext 92 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2022,Werkstudent,Werkstudent,Working Student,2.8,sample,"Beispieltext 93 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2018,Manager,Manager,Manager,3.6,sample,"Beispieltext 94 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,4.7,sample,"Beispieltext 95 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2020,Praktikant,Praktikant,Intern,4.7,sample,"Beispieltext 96 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2016,Praktikant,Praktikant,Intern,2.3,sample,"Beispieltext 97 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2020,Werkstudent,Werkstudent,Working Student,3.1,sample,"Beispieltext 98 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2023,Manager,Manager,Manager,2.5,sample,"Beispieltext 99 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2023,Ex-Angestellter,Ex-Angestellter,Former Employee,2.7,sample,"Beispieltext 100 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2021,Angestellter,Angestellter,Employee,3.9,sample,"Beispieltext 101 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2018,Angestellter,Angestellter,Employee,4.1,sample,"Beispieltext 102 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2021,Angestellter,Angestellter,Employee,5.0,sample,"Beispieltext 103 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2017,Manager,Manager,Manager,3.8,sample,"Beispieltext 104 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2017,Werkstudent,Werkstudent,Working Student,4.3,sample,"Beispieltext 105 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2018,Werkstudent,Werkstudent,Working Student,4.9,sample,"Beispieltext 106 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2016,Praktikant,Praktikant,Intern,3.9,sample,"Beispieltext 107 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2024,Ex-Angestellter,Ex-Angestellter,Former Employee,2.4,sample,"Beispieltext 108 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2016,Angestellter,Angestellter,Employee,4.1,sample,"Beispieltext 109 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2019,Angestellter,Angestellter,Employee,4.2,sample,"Beispieltext 110 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2023,Angestellter,Angestellter,Employee,3.1,sample,"Beispieltext 111 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2017,Angestellter,Angestellter,Employee,4.2,sample,"Beispieltext 112 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2023,Werkstudent,Werkstudent,Working Student,4.8,sample,"Beispieltext 113 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2022,Angestellter,Angestellter,Employee,2.8,sample,"Beispieltext 114 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2021,Praktikant,Praktikant,Intern,3.3,sample,"Beispieltext 115 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2016,Werkstudent,Werkstudent,Working Student,3.0,sample,"Beispieltext 116 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2018,Manager,Manager,Manager,4.5,sample,"Beispieltext 117 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2018,Praktikant,Praktikant,Intern,4.4,sample,"Beispieltext 118 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2020,Ex-Angestellter,Ex-Angestellter,Former Employee,2.0,sample,"Beispieltext 119 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2018,Angestellter,Angestellter,Employee,2.5,sample,"Beispieltext 120 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2024,Werkstudent,Werkstudent,Working Student,2.5,sample,"Beispieltext 121 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2017,Angestellter,Angestellter,Employee,4.5,sample,"Beispieltext 122 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2015,Werkstudent,Werkstudent,Working Student,4.0,sample,"Beispieltext 123 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2024,Praktikant,Praktikant,Intern,2.2,sample,"Beispieltext 124 fuer Siemens.
+Zweite Zeile der Bewertung.",negative
+Siemens,2019,Werkstudent,Werkstudent,Working Student,4.6,sample,"Beispieltext 125 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2017,Werkstudent,Werkstudent,Working Student,3.6,sample,"Beispieltext 126 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2017,Werkstudent,Werkstudent,Working Student,4.4,sample,"Beispieltext 127 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
+Siemens,2019,Werkstudent,Werkstudent,Working Student,2.5,sample,"Beispieltext 128 fuer Siemens.
+Zweite Zeile der Bewertung.",neutral
+Siemens,2016,Praktikant,Praktikant,Intern,2.9,sample,"Beispieltext 129 fuer Siemens.
+Zweite Zeile der Bewertung.",positive
