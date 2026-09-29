@@ -1,20 +1,25 @@
-# Employee sentiment on flexible working in the German automotive industry
+# Employee sentiment on home office and flexible working in the German automotive industry
 
-Spark analysis of German-language employer reviews, looking at how sentiment toward home office, flexibility, flextime and mobile working changed at BMW and its competitors between 2015 and 2024.
-
-Originally written in pandas for an Advanced Project Study at TUM School of Management, then reimplemented in PySpark.
+A Spark job over German-language employer reviews, looking at how sentiment toward home office, flexibility, flextime and mobile working changed at BMW and its competitors between 2015 and 2024.
 
 ## Question
 
-German carmakers spent the COVID years rewriting how and where people work. The question is whether employees noticed, and whether the answer differs between manufacturers.
+Since the end of the pandemic a lot of German employers have pushed to bring people back to the office. What each company announces is public. What its own employees think of it is not, and there is no reason to assume every carmaker landed in the same place. This reads what employees wrote and checks whether BMW moved differently from the rest of the industry.
 
 ## Data
 
-Employer reviews from Kununu and Glassdoor, collected and labelled in two stages.
+Employer reviews from four platforms, collected and labelled in two stages.
 
-**Collection.** Scraped with Selenium, walking the pagination for each company and writing one file per employer. Collection was exhaustive per company rather than sampled, so the counts below are every review available at the time of the scrape, not a draw from them.
+**Collection.** Scraped with Selenium, walking the pagination for each company and writing one file per employer. Every review available at the time of the scrape was taken, so the counts below are the full set for each company and not a draw from it.
 
-**Labelling.** Each review was scored by a LLaMA 3.1 model running locally through Ollama. The prompt is German and rates the review only on its tone toward flexible working, reading both explicit statements such as "Homeoffice erlaubt" and implicit signals such as ten hour days, missing breaks and contactability outside working time. Running the model locally rather than through a hosted API meant no review text left the machine.
+| Source | Automotive | Non-automotive |
+| --- | --- | --- |
+| Kununu | 2,905 | 1,235 |
+| Glassdoor | 731 | 2,269 |
+| Stepstone | 134 | 0 |
+| Indeed | 17 | 0 |
+
+**Labelling.** Each review was scored by a LLaMA 3.1 model running locally through Ollama. The prompt is German and rates the review only on its tone toward home office, flexibility, flextime and mobile working, reading both explicit statements such as "Homeoffice erlaubt" and implicit signals such as ten hour days, missing breaks and contactability outside working time. Running the model locally rather than through a hosted API meant no review text left the machine.
 
 | Set | Reviews | Companies | Used as |
 | --- | --- | --- | --- |
@@ -23,11 +28,11 @@ Employer reviews from Kununu and Glassdoor, collected and labelled in two stages
 
 Companies with fewer than 100 reviews are dropped, which leaves 19 companies and 6,352 reviews from 2015 onward.
 
-The raw review text is not in this repository and the scrapers are not either. The reviews are user-generated content belonging to the platforms, and German employer reviews carry role, employer and year alongside free text, which in a small company is enough to identify a person. Publishing them is not mine to do. `sentiment_analysis.py` expects the two CSV files in `data/`, with the schemas declared at the top of the script, and the aggregated output is committed under `results/` so every figure below can be checked without them.
+The raw review text is not in this repository and neither are the scrapers. The reviews belong to the platforms, and a German employer review carries role, employer and year next to the free text, which at a small company is enough to work out who wrote it. So neither goes in a public repository. `sentiment_analysis.py` expects the two CSV files in `data/`, with the schemas declared at the top of the script, and the aggregated output is committed under `results/` so every figure below can be checked without them.
 
 ## Results
 
-BMW moved from better than its sector to worse than it.
+BMW started above the industry average and ended below it.
 
 | Period | Reviews | Mean sentiment | Negative |
 | --- | --- | --- | --- |
@@ -41,8 +46,6 @@ Against the automotive mean, BMW was 0.084 above it before COVID and 0.067 below
 
 ## How much of that survives a significance test
 
-Less than the table above suggests, and it is worth being explicit about.
-
 Bootstrap intervals on the mean, 2,000 resamples, 95%:
 
 | Company | Period | n | Mean | 95% interval |
@@ -52,13 +55,13 @@ Bootstrap intervals on the mean, 2,000 resamples, 95%:
 | BMW | Post-COVID | 202 | -0.139 | -0.238 to -0.035 |
 | Mercedes-Benz | Post-COVID | 238 | +0.055 | -0.034 to +0.147 |
 
-BMW's post-COVID interval is the only one of the three that excludes zero. So the defensible claim is that BMW's sentiment on flexible working is negative after COVID and was not distinguishable from neutral before it.
+BMW's post-COVID interval is the only one of the three that excludes zero. So what holds up is that BMW's post-COVID score is genuinely negative. The pre-COVID score sits too close to zero to call it anything.
 
-The between-company claim is weaker. Comparing all ten carmaker pairs on 2020 onward, BMW against Mercedes-Benz gives p = 0.033, which is the smallest in the set. Ten comparisons means a Bonferroni factor of ten, and the corrected value is 0.33. Nothing in the matrix is significant after correction.
+Comparing companies against each other is where it gets thinner. Across all ten pairs of carmakers from 2020 onward, the closest to significant is BMW against Mercedes-Benz at p = 0.033. But ten pairs means ten chances to find something by luck, so the bar has to move. Correcting for that puts BMW against Mercedes-Benz at 0.33, and no pair in the set clears it.
 
-That does not make the descriptive trend uninteresting, and the direction is consistent across three periods and two independent measures. It does mean the honest statement is that BMW declined against a flat comparator, not that BMW declined significantly more than its competitors.
+So the claim that holds is that BMW's sentiment fell while Mercedes-Benz stayed flat. The claim that does not hold is that BMW fell by significantly more than its competitors.
 
-Two other findings hold across the sample. Working hours is the most mentioned topic in every year from 2020 to 2024, with remote work climbing from fourth to third. And by role, former employees are the most negative at 38.6% against interns at 20.7%.
+Two more things hold across the whole sample. Working hours is the most mentioned topic in every year from 2020 to 2024, and remote work rose from fourth place to third. Former employees are the most negative group, at 38.6% negative against 20.7% for interns.
 
 Sentiment is scored +1, 0 or -1, so the mean is bounded at plus and minus one.
 
@@ -114,12 +117,12 @@ The 100-review filter uses a window rather than collecting counts to the driver.
 
 ## Limitations
 
-Reviews are voluntary, so the people who write them are not a random sample of employees. Collection was exhaustive rather than sampled, so nothing is lost at that step, but the underlying population still leans toward people with a strong view and toward leavers.
+Reviews are voluntary, so the people who write them are not a random sample of employees. Every available review was collected, so nothing was lost by sampling, but people write these reviews when they have something to say, and the pool leans toward strong opinions and toward people who have already left.
 
 The role breakdown shows the effect directly. Former employees are the most negative group at 38.6% negative across 580 reviews, against interns at 20.7%. Any company-level number carries that composition with it.
 
 The sentiment labels come from a model, not from human annotation. `validation_sample()` draws a stratified sample for manual spot checking. It uses `sampleBy`, which works on fractions, so the sample size is approximate rather than exact.
 
-Sentiment is measured only on flexible working. A company can score badly here and well overall.
+Sentiment is measured only on home office and flexible working. A company can score badly here and well overall.
 
 Sample sizes per company and period run from 51 to 378, which is why the intervals are as wide as they are. Audi and Porsche in particular have too few reviews per period to say much.
