@@ -1,11 +1,9 @@
 """
 Employee sentiment on home office and flexible working in the German automotive industry.
 
-Spark implementation of the analysis originally written in pandas for an
-Advanced Project Study at TUM. Reads German-language employer reviews that have
-already been labelled for sentiment toward home office, flexibility, flextime
-and mobile working, then reports how that sentiment moved across the pre-COVID,
-COVID and post-COVID periods.
+Reads German-language employer reviews already labelled for sentiment toward
+home office, flexibility, flextime and mobile working, then reports how that
+sentiment moved across the pre-COVID, COVID and post-COVID periods.
 
 Usage:
     python sentiment_analysis.py
