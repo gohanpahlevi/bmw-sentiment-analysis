@@ -61,7 +61,7 @@ Comparing companies against each other is where it gets thinner. Across all ten 
 
 So the claim that holds is that BMW's sentiment fell while Mercedes-Benz stayed flat. The claim that does not hold is that BMW fell by significantly more than its competitors.
 
-Audi and Porsche are worth a line of their own. Both were already clearly negative before COVID, at -0.182 and -0.275, and both intervals exclude zero. BMW's did not. So BMW's post-COVID number is a change in position, while for those two it was the position they started from.
+Audi and Porsche read differently. Both were already negative before COVID, at -0.182 and -0.275, and both intervals exclude zero. BMW's pre-COVID interval does not. BMW started near neutral and fell. Audi and Porsche were negative the whole time.
 
 Two more things hold across the whole sample. Working hours is the most mentioned topic in every year from 2020 to 2024, and remote work moved from fourth place in 2020 to third in 2023 and 2024. Former employees are the most negative group, at 38.6% negative against 20.7% for interns.
 
