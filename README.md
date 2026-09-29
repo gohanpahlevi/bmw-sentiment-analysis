@@ -46,7 +46,7 @@ Against the automotive mean, BMW was 0.084 above it before COVID and 0.067 below
 
 ## How much of that survives a significance test
 
-Bootstrap intervals on the mean, 2,000 resamples, 95%:
+Bootstrap intervals on the mean, 2,000 resamples, 95%.
 
 | Company | Period | n | Mean | 95% interval |
 | --- | --- | --- | --- | --- |
@@ -95,13 +95,13 @@ results/
   company_comparisons.csv           pairwise tests, raw and corrected
 ```
 
-`sample_data/` holds a small generated set with the same schema, so the script runs end to end without the real reviews:
+`sample_data/` holds a small generated set with the same schema, so the script runs end to end without the real reviews.
 
 ```
 DATA_DIR=sample_data python sentiment_analysis.py
 ```
 
-Tests:
+The tests need pytest, which is in the dev requirements.
 
 ```
 pip install -r requirements-dev.txt
