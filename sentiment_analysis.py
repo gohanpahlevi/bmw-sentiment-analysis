@@ -9,6 +9,7 @@ Usage:
     python sentiment_analysis.py
 """
 
+import csv
 import os
 import shutil
 import sys
@@ -27,8 +28,13 @@ OUT = os.environ.get("OUT_DIR", "output")
 RESULTS = os.environ.get("RESULTS_DIR", "results")
 
 CARMAKERS = ["BMW", "Mercedes-Benz", "Audi", "Porsche", "Volkswagen"]
-MIN_REVIEWS = 100
 FIRST_YEAR = 2015
+
+# Minimum group sizes. A company needs MIN_REVIEWS to enter the analysis at all.
+# The smaller floors apply to the subgroups cut out of it.
+MIN_REVIEWS = 100
+MIN_ROLE_REVIEWS = 50
+MIN_GROUP_REVIEWS = 30
 
 
 AUTOMOTIVE_SCHEMA = StructType([
@@ -181,7 +187,7 @@ def top_topics_per_year(df, n=5):
     )
 
 
-def sentiment_by_role(df, min_total=50):
+def sentiment_by_role(df, min_total=MIN_ROLE_REVIEWS):
     return (
         df.filter(F.col("Standardized Role (EN)").isNotNull())
         .groupBy("Standardized Role (EN)")
@@ -250,7 +256,7 @@ def bootstrap_diff_p(a, b, draws=2000, seed=0):
     return float(min(1.0, 2 * min((diff <= 0).mean(), (diff >= 0).mean())))
 
 
-def company_intervals(df, companies, min_n=30):
+def company_intervals(df, companies, min_n=MIN_GROUP_REVIEWS):
     """Mean sentiment per company per period with a bootstrap interval."""
     # Groups are a few hundred rows each, so pulling the scores to the driver
     # is cheaper than trying to resample inside Spark.
@@ -293,7 +299,11 @@ def company_comparisons(df, companies, first_year=2020):
     scores = {}
     for r in rows:
         scores.setdefault(r["Company"], []).append(r["sentiment_score"])
-    scores = {k: np.array(v, dtype=float) for k, v in scores.items() if len(v) >= 30}
+    scores = {
+        k: np.array(v, dtype=float)
+        for k, v in scores.items()
+        if len(v) >= MIN_GROUP_REVIEWS
+    }
 
     out = []
     for a, b in combinations(sorted(scores), 2):
@@ -318,7 +328,6 @@ def write_rows(rows, name):
     """Write a list of dicts as CSV."""
     if not rows:
         return
-    import csv
     path = os.path.join(RESULTS, f"{name}.csv")
     with open(path, "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]))
@@ -347,7 +356,8 @@ def main():
     spark.sparkContext.setLogLevel("ERROR")
 
     reviews = drop_thin_companies(clean(read_reviews(spark)))
-    # Seven actions read this, so keep it in memory rather than replaying.
+    # Everything below reads this, around seventeen actions in total, so keep it
+    # in memory rather than replaying the read, union, cleaning and window.
     reviews.cache()
 
     print(f"\nreviews after filtering: {reviews.count()}")
@@ -389,7 +399,12 @@ def main():
 
     print(f"\nresult tables written to {RESULTS}")
 
-    print(f"\nvalidation sample: {validation_sample(reviews).count()} rows")
+    # The sample carries raw review text, so it goes to OUT, which is gitignored.
+    # It must never be written to RESULTS, which is committed.
+    sample = validation_sample(reviews)
+    sample_path = os.path.join(OUT, "validation_sample")
+    sample.coalesce(1).write.mode("overwrite").option("header", True).csv(sample_path)
+    print(f"\nvalidation sample: {sample.count()} rows written to {sample_path}")
 
     (
         reviews.write.mode("overwrite")

@@ -61,7 +61,9 @@ Comparing companies against each other is where it gets thinner. Across all ten 
 
 So the claim that holds is that BMW's sentiment fell while Mercedes-Benz stayed flat. The claim that does not hold is that BMW fell by significantly more than its competitors.
 
-Two more things hold across the whole sample. Working hours is the most mentioned topic in every year from 2020 to 2024, and remote work rose from fourth place to third. Former employees are the most negative group, at 38.6% negative against 20.7% for interns.
+Audi and Porsche are worth a line of their own. Both were already clearly negative before COVID, at -0.182 and -0.275, and both intervals exclude zero. BMW's did not. So BMW's post-COVID number is a change in position, while for those two it was the position they started from.
+
+Two more things hold across the whole sample. Working hours is the most mentioned topic in every year from 2020 to 2024, and remote work moved from fourth place in 2020 to third in 2023 and 2024. Former employees are the most negative group, at 38.6% negative against 20.7% for interns.
 
 Sentiment is scored +1, 0 or -1, so the mean is bounded at plus and minus one.
 
@@ -102,8 +104,11 @@ DATA_DIR=sample_data python sentiment_analysis.py
 Tests:
 
 ```
+pip install -r requirements-dev.txt
 pytest
 ```
+
+`validation_sample()` writes a stratified sample of labelled reviews to `output/validation_sample/` for manual spot checking. That file holds raw review text, so it stays under `output/`, which is gitignored, and never under `results/`.
 
 ## Notes on the implementation
 
@@ -121,8 +126,8 @@ Reviews are voluntary, so the people who write them are not a random sample of e
 
 The role breakdown shows the effect directly. Former employees are the most negative group at 38.6% negative across 580 reviews, against interns at 20.7%. Any company-level number carries that composition with it.
 
-The sentiment labels come from a model, not from human annotation. `validation_sample()` draws a stratified sample for manual spot checking. It uses `sampleBy`, which works on fractions, so the sample size is approximate rather than exact.
+The sentiment labels come from a model, not from human annotation. `validation_sample()` draws a stratified sample so they can be checked by hand. It uses `sampleBy`, which works on fractions, so the sample size comes out approximate rather than exact.
 
 Sentiment is measured only on home office and flexible working. A company can score badly here and well overall.
 
-Sample sizes per company and period run from 51 to 378, which is why the intervals are as wide as they are. Audi and Porsche in particular have too few reviews per period to say much.
+Sample sizes per company and period run from 51 to 378, which is why the intervals are as wide as they are. Audi and Porsche have the fewest reviews per period and so the widest intervals, and any year-on-year movement in those two should be read with that in mind.
