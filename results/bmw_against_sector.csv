@@ -1,0 +1,4 @@
+period,bmw_n,bmw_mean,sector_mean,gap
+1_pre_covid,287,0.042,-0.042,0.084
+2_covid,212,0.0,-0.008,0.008
+3_post_covid,202,-0.139,-0.071,-0.067
