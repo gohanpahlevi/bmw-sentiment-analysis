@@ -19,7 +19,7 @@ Employer reviews from four platforms, collected and labelled in two stages.
 | Stepstone | 134 | 0 |
 | Indeed | 17 | 0 |
 
-**Labelling.** Each review was scored by a LLaMA 3.1 model running locally through Ollama. The prompt is German and rates the review only on its tone toward home office, flexibility, flextime and mobile working, reading both explicit statements such as "Homeoffice erlaubt" and implicit signals such as ten hour days, missing breaks and contactability outside working time. Running the model locally rather than through a hosted API meant no review text left the machine.
+**Labelling.** Each review was scored by a LLaMA 3.1 model running locally through Ollama. The prompt is German and rates the review only on its tone toward home office, flexibility, flextime and mobile working, reading both explicit statements such as "Homeoffice erlaubt" and implicit signals such as ten hour days, missing breaks and contactability outside working time. The model ran locally, not through a hosted API, so no review text left the machine.
 
 | Set | Reviews | Companies | Used as |
 | --- | --- | --- | --- |
@@ -114,9 +114,9 @@ pytest
 
 `multiLine=True` on the CSV reader is not optional. Review text contains line breaks, and without it Spark splits rows on those breaks. It is the difference between 3,787 rows and about 6,000.
 
-Schemas are declared rather than inferred, so the files are read once instead of twice.
+Schemas are declared, not inferred, so each file is read once and not twice.
 
-The 100-review filter uses a window rather than collecting counts to the driver. The topic ranking uses `row_number()` over a window partitioned by year. The BMW comparison broadcasts the three-row sector table instead of shuffling the full dataset. There are no Python UDFs; everything is built-in `pyspark.sql.functions`, which keeps it inside the optimiser.
+The 100-review filter uses a window, so the counts never come back to the driver. The topic ranking uses `row_number()` over a window partitioned by year. The BMW comparison broadcasts the three-row sector table, which avoids shuffling the full dataset. There are no Python UDFs; everything is built-in `pyspark.sql.functions`, which keeps it inside the optimiser.
 
 `spark.sql.shuffle.partitions` is set to 8. The default of 200 makes a job this size slower than pandas.
 
@@ -126,7 +126,7 @@ Reviews are voluntary, so the people who write them are not a random sample of e
 
 The role breakdown shows the effect directly. Former employees are the most negative group at 38.6% negative across 580 reviews, against interns at 20.7%. Any company-level number carries that composition with it.
 
-The sentiment labels come from a model, not from human annotation. `validation_sample()` draws a stratified sample so they can be checked by hand. It uses `sampleBy`, which works on fractions, so the sample size comes out approximate rather than exact.
+The sentiment labels come from a model, not from human annotation. `validation_sample()` draws a stratified sample so they can be checked by hand. It uses `sampleBy`, which works on fractions, so the sample size comes out approximate and not exact.
 
 Sentiment is measured only on home office and flexible working. A company can score badly here and well overall.
 

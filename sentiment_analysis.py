@@ -336,7 +336,7 @@ def write_rows(rows, name):
 
 
 def write_csv(df, name):
-    """Write a summary table as one CSV file rather than a directory of parts."""
+    """Write a summary table as one CSV file, not a directory of parts."""
     tmp = os.path.join(RESULTS, f".{name}")
     df.coalesce(1).write.mode("overwrite").option("header", True).csv(tmp)
     part = next(f for f in os.listdir(tmp) if f.endswith(".csv"))
@@ -357,7 +357,7 @@ def main():
 
     reviews = drop_thin_companies(clean(read_reviews(spark)))
     # Everything below reads this, around seventeen actions in total, so keep it
-    # in memory rather than replaying the read, union, cleaning and window.
+    # in memory and avoid replaying the read, union, cleaning and window.
     reviews.cache()
 
     print(f"\nreviews after filtering: {reviews.count()}")
